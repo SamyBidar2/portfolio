@@ -1,0 +1,66 @@
+.cardCustomContainer {
+  display: flex;
+  width: 760px;
+  height: 480px;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 40px;
+  border: 1px solid #FFF;
+  background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.02) 100%);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+.cardImg {
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.cardBody {
+  display: flex;
+  padding: 12px 40px;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.cardBody .textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.cardBody .textContainer .cardTitle {
+  color: var(--Adaptive-Medium, rgba(255, 255, 255, 0.8));
+  /* Heading/Semibold/M */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 133.333% */
+  margin: 0;
+}
+
+.cardBody .textContainer .cardText {
+  color: var(--Adaptive-Weak, rgba(255, 255, 255, 0.6));
+  /* Heading/Regular/S */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+}
+
+.cardBody .textContainer .projectIcon {
+  height: 32px;
+  width: 32px;
+  color: var(--Adaptive-Weak, #717689);
+}

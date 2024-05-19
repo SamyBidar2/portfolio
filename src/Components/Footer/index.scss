@@ -1,0 +1,17 @@
+.footer-container{
+    display: flex;
+    padding: 80px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: stretch;
+    gap: 24px;
+    
+
+    p{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+}
