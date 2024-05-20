@@ -11,13 +11,8 @@ export const ProjectList = () => {
     console.log(projectdatas); // Affiche tout le tableau de données dans la console
 
     return (
-        // <div className={styles.projectlistContainer}>
-        //     {projectdatas.map((data, index) => {
-        //         console.log(data); // Affiche chaque objet de données individuellement dans la console
-        //         return <ProjectCard key={`${data.id}-${index}`} project={data} />;
-        //     })}
-        // </div>
         <Container>
+            <h2 className='text-light'>Tous mes Projets</h2>
             <Row>
                 {projectdatas.map((data, index) => (
                     <Col key={`${data.id}-${index}`} xs={12} md={6} lg={6} xl={6}>

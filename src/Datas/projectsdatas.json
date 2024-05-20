@@ -6,11 +6,12 @@
         "image2": "https://picsum.photos/200/100",
         "image3": "https://picsum.photos/200/100",
         "body": "During my immersive coding bootcamp experience, I collaborated with a team to develop a sophisticated project — a MVP version with a distinct emphasis on route optimisation. Demonstrating a comprehensive understanding of the project's intricacies, I took charge of the entire route management aspect.\nThe purpose of this initiative was to enhance the safety of young cyclists. Leveraged Leaflet.js and TomTom's Routing/Reverse Geolocation APIs.\nIn practical terms, this translates to the creation of a interactive map. Users can intricately plan their routes, considering factors such as real-time traffic updates, designated bike lanes, and terrain gradients. The result is a visually appealing mapping experience. An adventure plotted with utmost consideration for safety and enjoyment.",
-        "technologies": ["Leaflet", "jQuery", "Bootstrap", "HTML", "CSS"],
+        "technologies": ["React", "jQuery", "Bootstrap", "HTML", "CSS"],
         "github": "https://github.com/mdyeates/bike-buddy",
         "deployed": "https://norrinradd8.github.io/bike_buddy/",
         "bgcolor": "var(--hl2-color)",
-        "id": "1"
+        "id": "1",
+        "focus" : "React"
       },
       {
         "title": "Projet 2",
@@ -23,12 +24,13 @@
         "github": "https://github.com/mdyeates/weather-app",
         "deployed": "https://mdyeates.github.io/weather-app/",
         "bgcolor": "var(--hl-color)",
-        "id": "2"
+        "id": "2",
+        "focus" : "JS"
       },
       {
         "title": "Generator",
         "description": "Effortless web pages",
-        "cover": "/projectImages/team.png",
+        "cover": "https://picsum.photos/200/100",
         "image2": "/projectImages/teamcelebrating.jpeg",
         "image3": "/projectImages/team3.png",
         "technologies": ["JavaScript", "Node", "Bootstrap", "Testing"],
@@ -36,7 +38,8 @@
         "github": "https://github.com/mdyeates/team-dashboard",
         "deployed": "https://drive.google.com/file/d/1_atUXTM-L9r4NccsrPaaWqPyNu37ftwH/view",
         "bgcolor": "#6c4bf4",
-        "id": "3"
+        "id": "3",
+        "focus" : "CSS"
       },
       {
         "title": "Quiz",
@@ -49,6 +52,7 @@
         "github": "https://github.com/mdyeates/coding-quiz",
         "deployed": "https://mdyeates.github.io/coding-quiz/",
         "bgcolor": "#f85781",
-        "id": "4"
+        "id": "4",
+        "focus" : ""
       }
 ]

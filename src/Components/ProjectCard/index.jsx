@@ -4,28 +4,34 @@ import { Card as BootstrapCard } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleNodes } from '@fortawesome/free-solid-svg-icons';
 
+
 const Card = styled(BootstrapCard)`
-    width: 760px;
-    height: 480px;
+    // width: 760px;
+    //height: 350px;
     padding: 8px;
-    gap: 8px; 
-    border-radius: 40px;
-    border: 1px solid #FFF;
+    box-sizing: border-box;
+    gap: 15px; 
+    border-radius: 10px;
+    border: 1px solid #2b303b;
     background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.02) 100%);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 16px 0px rgba(0, 0, 0, 0.60);
     backdrop-filter: blur(12px);
 `;
 
 const CardImg = styled(BootstrapCard.Img)`
-    border-radius: 40px;    
+    border-radius: 10px;    
 `;
 
 const CardBody = styled(BootstrapCard.Body)`
     display: flex;
-    padding: 12px 40px;
-    align-items: center;
+    flex-direction: Column;
+    align-items: flex-start;
+    align-content: flex-start;
+    align-self: stretch; 
     gap: 24px;
-    align-self: stretch;   
+    box-sizing: border-box;
+    padding: 12px 35px;
+        
 `;
 
 const TextContainer = styled.div`
@@ -46,7 +52,7 @@ const ProjectIcone = styled(FontAwesomeIcon)`
 const CardTitle = styled(BootstrapCard.Title)`
     color: var(--Adaptive-Medium, rgba(255, 255, 255, 0.80));
     font-family: Inter;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;  
@@ -59,7 +65,8 @@ color: var(--Adaptive-Weak, rgba(255, 255, 255, 0.60));
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;           
+    line-height: 24px;  
+    margin-bottom : 20px;           
 `;
 
 
