@@ -13,7 +13,8 @@ const Card = styled(BootstrapCard)`
     gap: 15px; 
     border-radius: 10px;
     border: 1px solid #2b303b;
-    background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.02) 100%);
+    // background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.02) 100%);
+    background: #15181e;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 16px 0px rgba(0, 0, 0, 0.60);
     backdrop-filter: blur(12px);
 `;

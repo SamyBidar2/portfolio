@@ -1,23 +1,67 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
+import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
+// import SocialIcons from "./SocialIcons";
 
 
 const AboutContainer = styled(Container)`
     display: flex;
-    max-width: 800px;
-    padding: 40px 56px;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 40px 56px;
     margin-left:0px;
-    gap: 40px;
+    gap: 20px;
     align-self: stretch;        
 `;
-export const Presentation = ({}) => {
-    return (
+
+const Title = styled(motion.h1)`
+    font-size:36px;
+    text-align:center;
+    color: #fff;
+    // font-family: 'Courier New', Courier, monospace;
+`;
+
+const TypewriterContainer = styled.div`
+    font-size: 24px;
+    text-align:center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    .typewriter-cursor {
+        display: inline-block;
+        margin-left: 2px;
+        animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+        from, to { opacity: 1 }
+        50% { opacity: 0 }
+    }
+`;
+
+export const Presentation = () => {
+return (
         <AboutContainer>
-            <h1 className='text-light'>Samy Bidar</h1>
+            <Title 
+                // className='text-light' 
+                initial={{ scale: 0.5, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ delay: 0, duration: 0.5, type: "spring" }}>
+                Samy Bidar
+            </Title>
+
+             <TypewriterContainer>
+                <Typewriter
+                    options={{
+                        cursor: "|",
+                    }}
+                    onInit={(typewriter) => {
+                        typewriter.changeDelay(50).typeString("FrontEnd Developper").start();
+                    }}
+                />
+            </TypewriterContainer>
         </AboutContainer>
     );
 };
