@@ -16,7 +16,7 @@ const StyledCard = styled(ApCard)`
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 16px 0px rgba(0, 0, 0, 0.60);
     backdrop-filter: blur(12px);
 
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         margin-top:0px;
     }
 `;
@@ -27,14 +27,14 @@ const StyledCardBody = styled(ApCard.Body)`
     justify-content: flex-start;
     padding: 0px;
     margin: 0px;
-    @media (max-width: 576px) {
+    @media (max-width: 992px) {
         flex-direction: column;
     }
 `;
 
 const CardImg = styled(ApCard.Img)`
     border-radius: 10px;         
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         width: 100%;
     }
 `;
@@ -46,8 +46,11 @@ const CardContainer = styled(Container)`
     justify-content: flex-start;
     padding: 50px;
 
-    @media (max-width: 576px) {
+     @media (max-width: 768px) {
         padding: 20px;
+    }
+    @media (min-width: 769px) and (max-width: 992px) {
+        padding: 50px 20px; /* Ajustement du padding pour le centrage */
     }
 `;
 
@@ -59,9 +62,9 @@ const CardTitle = styled(ApCard.Title)`
     font-weight: 600;
     line-height: 24px;
     margin-bottom: 40px;
-    height: 72px
+    height: 72px;
 
-    @media (max-width: 576px) {
+     @media (max-width: 768px) {
         font-size: 28px;
         margin-bottom: 20px;
     }
@@ -85,21 +88,21 @@ const CardButton = styled(Button)`
     padding: 15px;
     width: 220px;
 
-    @media (max-width: 576px) {
+     @media (max-width: 768px) {
         width: 100%;
     }
 `;
 
 const ResponsiveCol = styled(Col)`
     margin-bottom: 15px; // Adjust this value to match your column spacing
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         width: 100%;
     }
 `;
 
 const FullWidthCard = styled(Col)`
     margin-bottom: 15px;
-    @media (max-width: 576px) {
+    @media (max-width: 768px) {
         width: 100%;
     }
 `;
@@ -113,18 +116,18 @@ export const ProjectFocus = () => {
         <Container>
             <h2 className='text-light'>Projets</h2>
             <Row>
-                <ResponsiveCol xs={12} sm={4}>
+                <ResponsiveCol xs={12} md={12} lg={4}>
                     <ProjectCard project={reactproject} />
                 </ResponsiveCol>
-                <ResponsiveCol xs={12} sm={4}>
+                <ResponsiveCol xs={12} md={12} lg={4}>
                     <ProjectCard project={jsproject} />
                 </ResponsiveCol>
-                <ResponsiveCol xs={12} sm={4}>
+                <ResponsiveCol xs={12} md={12} lg={4}>
                     <ProjectCard project={cssproject} />
                 </ResponsiveCol>
             </Row>
             <Row>
-                <FullWidthCard>
+                <FullWidthCard xs={12}>
                     <StyledCard>
                         <StyledCardBody>
                             <CardImg src={allprojectimage} />
@@ -140,3 +143,5 @@ export const ProjectFocus = () => {
         </Container>
     );
 };
+
+export default ProjectFocus;
