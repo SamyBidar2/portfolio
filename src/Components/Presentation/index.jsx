@@ -58,7 +58,7 @@ return (
                         cursor: "|",
                     }}
                     onInit={(typewriter) => {
-                        typewriter.changeDelay(50).typeString("FrontEnd Developper").start();
+                        typewriter.changeDelay(50).typeString("Développeur Frontend").start();
                     }}
                 />
             </TypewriterContainer>

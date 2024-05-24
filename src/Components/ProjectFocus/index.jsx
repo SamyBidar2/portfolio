@@ -50,7 +50,7 @@ const CardContainer = styled(Container)`
         padding: 20px;
     }
     @media (min-width: 769px) and (max-width: 992px) {
-        padding: 50px 20px; /* Ajustement du padding pour le centrage */
+        padding: 50px 20px; 
     }
 `;
 
@@ -94,7 +94,7 @@ const CardButton = styled(Button)`
 `;
 
 const ResponsiveCol = styled(Col)`
-    margin-bottom: 15px; // Adjust this value to match your column spacing
+    margin-bottom: 15px; 
     @media (max-width: 768px) {
         width: 100%;
     }
