@@ -1,5 +1,5 @@
 [
-	{
+	{     "id": "1",
         "title": "Projet 1",
         "description": "Plan Safe Routes",
         "cover": "https://picsum.photos/200/100",
@@ -10,7 +10,6 @@
         "github": "https://github.com/mdyeates/bike-buddy",
         "deployed": "https://norrinradd8.github.io/bike_buddy/",
         "bgcolor": "var(--hl2-color)",
-        "id": "1",
         "focus" : "React"
       },
       {

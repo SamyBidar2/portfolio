@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import openMenu from '../../Images/open.svg';
-import closeMenu from '../../Images/close.svg';
+import openMenu from '../Images/open.svg';
+import closeMenu from '../Images/close.svg';
 
 export const Navlinks = () => {
   // State to track whether the menu is open or closed

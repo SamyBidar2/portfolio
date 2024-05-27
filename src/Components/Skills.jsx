@@ -44,6 +44,7 @@ const SkillsLi = styled.li`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:5px;
     border: 1px solid;
     border-radius: 5px;
     @media (max-width: 768px) {

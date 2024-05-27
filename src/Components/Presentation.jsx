@@ -65,3 +65,5 @@ return (
         </AboutContainer>
     );
 };
+
+export default Presentation;

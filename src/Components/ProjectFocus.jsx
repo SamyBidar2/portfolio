@@ -1,11 +1,27 @@
 import React from 'react';
-import { ProjectCard } from '../ProjectCard';
-import projectdatas from '../../Datas/projectsdatas.json';
+import { ProjectCard } from './ProjectCard';
+import projectdatas from '../Datas/projectsdatas.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import allprojectimage from '../../Images/allprojects.jpg';
+import allprojectimage from '../Images/allprojects.jpg';
 import styled from 'styled-components';
 import { Card as ApCard, Col, Row, Container, Button } from 'react-bootstrap';
 
+
+const ProjectFocusContainer = styled(Container)`
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    // padding: 40px 0;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10%;    
+`;
+const ProjectTitle = styled.h2`
+    display:flex;
+    justify-content:center;
+    padding: 40px 0;
+    text-align: center;
+`;
 const StyledCard = styled(ApCard)`
     padding: 0px;
     margin: 0px;
@@ -20,7 +36,6 @@ const StyledCard = styled(ApCard)`
         margin-top:0px;
     }
 `;
-
 const StyledCardBody = styled(ApCard.Body)`
     display: flex;
     flex-direction: row;
@@ -31,14 +46,12 @@ const StyledCardBody = styled(ApCard.Body)`
         flex-direction: column;
     }
 `;
-
 const CardImg = styled(ApCard.Img)`
     border-radius: 10px;         
     @media (max-width: 768px) {
         width: 100%;
     }
 `;
-
 const CardContainer = styled(Container)`
     box-sizing: border-box;
     display: flex;
@@ -53,7 +66,6 @@ const CardContainer = styled(Container)`
         padding: 50px 20px; 
     }
 `;
-
 const CardTitle = styled(ApCard.Title)`
     color: var(--Adaptive-Medium, rgba(255, 255, 255, 0.80));
     font-family: Inter;
@@ -69,7 +81,6 @@ const CardTitle = styled(ApCard.Title)`
         margin-bottom: 20px;
     }
 `;
-
 const CardText = styled(ApCard.Text)`
     color: var(--Adaptive-Weak, rgba(255, 255, 255, 0.60));
     font-family: Inter;
@@ -79,7 +90,6 @@ const CardText = styled(ApCard.Text)`
     line-height: 24px;
     margin-bottom: 20px;
 `;
-
 const CardButton = styled(Button)`
     border-radius: 10px;
     border: 1px solid #2b303b;
@@ -92,14 +102,12 @@ const CardButton = styled(Button)`
         width: 100%;
     }
 `;
-
 const ResponsiveCol = styled(Col)`
     margin-bottom: 15px; 
     @media (max-width: 768px) {
         width: 100%;
     }
 `;
-
 const FullWidthCard = styled(Col)`
     margin-bottom: 15px;
     @media (max-width: 768px) {
@@ -113,35 +121,35 @@ export const ProjectFocus = () => {
     const cssproject = projectdatas.find(project => project.focus === 'CSS');
 
     return (
-        <Container>
-            <h2 className='text-light'>Projets</h2>
+        <ProjectFocusContainer>
+            <ProjectTitle className='text-light'>Projets</ProjectTitle>
             <Row>
-                <ResponsiveCol xs={12} md={12} lg={4}>
-                    <ProjectCard project={reactproject} />
-                </ResponsiveCol>
-                <ResponsiveCol xs={12} md={12} lg={4}>
-                    <ProjectCard project={jsproject} />
-                </ResponsiveCol>
-                <ResponsiveCol xs={12} md={12} lg={4}>
-                    <ProjectCard project={cssproject} />
-                </ResponsiveCol>
-            </Row>
-            <Row>
-                <FullWidthCard xs={12}>
-                    <StyledCard>
-                        <StyledCardBody>
-                            <CardImg src={allprojectimage} />
-                            <CardContainer>
-                                <CardTitle>Un aperçu de tous mes Projets</CardTitle>
-                                <CardText>Retrouvez ici l'intégralité des projets sur lesquels j'ai travaillé</CardText>
-                                <CardButton variant="outline-light" size="sm">Voir plus</CardButton>
-                            </CardContainer>
-                        </StyledCardBody>
-                    </StyledCard>
-                </FullWidthCard>
-            </Row>
-        </Container>
-    );
-};
+                    <ResponsiveCol xs={12} md={12} lg={4}>
+                        <ProjectCard project={reactproject} />
+                    </ResponsiveCol>
+                    <ResponsiveCol xs={12} md={12} lg={4}>
+                        <ProjectCard project={jsproject} />
+                    </ResponsiveCol>
+                    <ResponsiveCol xs={12} md={12} lg={4}>
+                        <ProjectCard project={cssproject} />
+                    </ResponsiveCol>
+                </Row>
+                <Row>
+                    <FullWidthCard xs={12}>
+                        <StyledCard>
+                            <StyledCardBody>
+                                <CardImg src={allprojectimage} />
+                                <CardContainer>
+                                    <CardTitle>Un aperçu de tous mes Projets</CardTitle>
+                                    <CardText>Retrouvez ici l'intégralité des projets sur lesquels j'ai travaillé</CardText>
+                                    <CardButton variant="outline-light" size="sm">Voir plus</CardButton>
+                                </CardContainer>
+                            </StyledCardBody>
+                        </StyledCard>
+                    </FullWidthCard>
+                </Row>  
+        </ProjectFocusContainer>
+    )
+}
 
 export default ProjectFocus;
