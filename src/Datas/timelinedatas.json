@@ -1,22 +1,27 @@
 [
     {   
-        "id":"1",
-        "text": "Ingénieur du son Freelance",
-        "date": "March 03 2017",
+        "id":"7",
+        "jobtitle": "Formation Intégrateur Web",
+        "date": "11/2023 - 08/2024",
+        "description" :"Test et Validation de logiciel au sein du",
+        "company":"Open Classrooms",
         "category": {
-            "tag": "medium",
+            "tag": "Intégration Web, Développement Web, React, Javascript, HTML, CSS",
             "color": "#018f69"
         },
         "link": {
             "url":
                 "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
             "text": "Read more"
-        }
+        },
+        "pictures": ""
     },
-    {
-        "id":"2",
-        "text": "Testeur de logiciel / ",
-        "date": "March 03 2017",
+    {   
+        "id":"6",
+        "jobtitle": "Co-gérant",
+        "date": "2022-2024",
+        "description" :" Coucou",
+        "company":"Upperground Production",
         "category": {
             "tag": "medium",
             "color": "#018f69"
@@ -25,6 +30,95 @@
             "url":
                 "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
             "text": "Read more"
-        }  
+        },
+        "pictures": ""
+    },
+    
+    {   
+        "id":"5",
+        "jobtitle": "Testeur de logiciel / chargé de Validation",
+        "date": "2016-2021",
+        "description" :"Test et Validation de logiciel au sein du",
+        "company":"CPAM du Puy du Dôme",
+        "category": {
+            "tag": "Recettte Fonctionnelle, Tests, Automatisation de tests, spécifications fonctionnelles",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
+    },
+    {   
+        "id":"4",
+        "jobtitle": "Ingénieur du son",
+        "date": "2014-2024",
+        "description" :"",
+        "company":"freelance - Upperground Studio",
+        "category": {
+            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
+    },
+    {   
+        "id":"3",
+        "jobtitle": "Master 2 - Ingénierie du son",
+        "date": "2014",
+        "description" :"",
+        "company":"freelance - Upperground Studio",
+        "category": {
+            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
+    },
+    {   
+        "id":"2",
+        "jobtitle": "Licence - Ingénierie éléctronique et électrotechnique",
+        "date": "2012",
+        "description" :"",
+        "company":"freelance - Upperground Studio",
+        "category": {
+            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
+    },
+    {   
+        "id":"1",
+        "jobtitle": "DUT - Réseaux et Télécommunications ",
+        "date": "2010",
+        "description" :"",
+        "company":"freelance - Upperground Studio",
+        "category": {
+            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
     }
+   
+   
 ]
