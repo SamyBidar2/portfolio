@@ -15,7 +15,6 @@ function App() {
       {/* <Navlinks2/> */}
       <Routes>
         <Route path ='/' element={<Home />} />
-        {/* <Route path ='#Portfolio' element={<ProjectFocus />} /> */}
         <Route path ="*" element={<Error />} />
       </Routes>
       <Footer />

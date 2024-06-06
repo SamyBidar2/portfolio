@@ -5,11 +5,10 @@ import openMenu from '../Images/open.svg';
 import closeMenu from '../Images/close.svg';
 
 export const Navlinks = () => {
-  // State to track whether the menu is open or closed
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuIconStyle = {
-    width: isMenuOpen ? '20px' : '30px', // Adjust the sizes as needed
+    width: isMenuOpen ? '20px' : '30px',
     height: isMenuOpen ? '20px' : '30px',
   };
 
@@ -36,13 +35,13 @@ export const Navlinks = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <motion.div
+              {/* <motion.div
                 initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.4, duration: 0.5, type: 'spring' }}
               >
                 <Nav.Link href="#home">Accueil</Nav.Link>
-              </motion.div>
+              </motion.div> */}
 
               <motion.div
                 initial={{ x: -100, opacity: 0 }}
@@ -67,4 +66,3 @@ export const Navlinks = () => {
   );
 };
 
-export default Navlinks;

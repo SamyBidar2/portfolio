@@ -1,11 +1,13 @@
 import React from 'react';
-import { ProjectCard } from './ProjectCard';
+import { ProjectCard } from '../src/Components/ProjectCard';
 import projectdatas from '../Datas/projectsdatas.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import allprojectimage from '../Images/allprojects.jpg';
 import styled from 'styled-components';
 import { Card as ApCard, Col, Row, Container, Button } from 'react-bootstrap';
 
+
+//#region 
 const ProjectFocusContainer = styled(Container)`
     display: flex;
     flex-direction: column;
@@ -122,6 +124,8 @@ const FullWidthCard = styled(Col)`
         width: 100%;
     }
 `;
+//#endregion
+
 
 export const ProjectFocus = () => {
     const reactproject = projectdatas.find(project => project.focus === 'React');

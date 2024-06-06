@@ -1,10 +1,22 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faCss3, faSass, faHtml5 } from '@fortawesome/free-brands-svg-icons';
+import adapt from '../Images/icons/icons8-adaptation-32.png';
+import team from '../Images/icons/icons8-team-work-32.png';
+import tenace from '../Images/icons/icons8-ténacité-32.png';
+import empathie from '../Images/icons/icons8-empathie-32.png';
+import learn from '../Images/icons/envie-apprendre-32.png';
+import notion from '../Images/icons/icons8-notion-32.png';
+import git from '../Images/icons/icons8-github-32.png';
+import excel from '../Images/icons/icons8-ms-excel-32.png';
+import vscode from '../Images/icons/icons8-visual-studio-32.png';
 
+//#region 
 const SkillsContainer = styled(Container)`
     display: flex;  
     flex-direction: column;
@@ -24,11 +36,12 @@ const SkillsTitle = styled.h2`
 const SkillsUl = styled.ul`
     list-style: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     width: 100%;
-    padding: 50px 0;
+    padding: 0px 0px 50px 0px;
     margin: 0;
     border-radius: 10px;
     border: 1px solid #2b303b;
@@ -39,12 +52,12 @@ const SkillsUl = styled.ul`
 
 const SkillsLi = styled.li`
     display: flex;
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:5px;
+    gap: 5px;
     border: 1px solid;
     border-radius: 5px;
     @media (max-width: 768px) {
@@ -71,34 +84,111 @@ const SkillsIcone = styled(FontAwesomeIcon)`
     }
 `;
 
+const SkillsListContainer = styled(Container)`
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+`;
+
+const StyledTabs = styled(Tabs)`
+    .nav-link {
+        color: white;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-link.active {
+        border-color: #2b303b;
+    }
+    .nav-tab{
+        height:42px;
+    }
+`;
+//#endregion
+
 export const Skills = () => {
     return (
         <SkillsContainer>
-            <SkillsTitle className='text-light'>Skills</SkillsTitle>
+            <SkillsTitle className='text-light'>Compétences</SkillsTitle>
             <SkillsUl className='text-light'>
-                <SkillsLi>
-                    <SkillsIcone icon={faJs} className='text-light'/>
-                    <span>Javascript</span>
-                </SkillsLi> 
-                <SkillsLi>
-                    <SkillsIcone icon={faReact} className='text-light' />
-                    <span>React</span>
-                </SkillsLi>
-                <SkillsLi>
-                    <SkillsIcone icon={faHtml5} className='text-light' />
-                    <span>HTML 5</span>
-                </SkillsLi>
-                <SkillsLi>
-                    <SkillsIcone icon={faCss3} className='text-light'/>
-                    <span>CSS 3</span>
-                </SkillsLi>
-                <SkillsLi>
-                    <SkillsIcone icon={faSass} className='text-light'/>
-                    <span>Sass</span>
-                </SkillsLi>  
+                <StyledTabs
+                    defaultActiveKey="Techskills"
+                    id="justify-tab-example"
+                    className="mb-3"
+                    justify
+                >
+                    <Tab eventKey="Techskills" title="Technique">
+                        <SkillsListContainer>
+                            <SkillsLi>
+                                <SkillsIcone icon={faJs} className='text-light' />
+                                <span>Javascript</span>
+                            </SkillsLi> 
+                            <SkillsLi>
+                                <SkillsIcone icon={faReact} className='text-light' />
+                                <span>React</span>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <SkillsIcone icon={faHtml5} className='text-light' />
+                                <span>Html 5</span>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <SkillsIcone icon={faCss3} className='text-light' />
+                                <span>Css 3</span>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <SkillsIcone icon={faSass} className='text-light' />
+                                <span>Sass</span>
+                            </SkillsLi> 
+                        </SkillsListContainer>
+                    </Tab>
+                    <Tab eventKey="Softskills" title="Soft skills">
+                        <SkillsListContainer>
+                            <SkillsLi>
+                                <img src={adapt} alt='Adaptation' className='text-light' />
+                                <span>Adaptation</span>
+                            </SkillsLi> 
+                            <SkillsLi>
+                                <img src={team} alt='Equipe' className='text-light' />
+                                <span>Equipe</span>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <img src={tenace} alt='Persévérance' className='text-light' />
+                                <span>Persévérance</span>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <img src={learn} alt='Apprentissage' className='text-light' />
+                                <span>Apprentissage</span>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <img src={empathie} alt='Empathie' className='text-light' />
+                                <span>Empathie</span>
+                            </SkillsLi>
+                        </SkillsListContainer>
+                    </Tab>
+                    <Tab eventKey="Tools" title="Outils">
+                        <SkillsListContainer>
+                            <SkillsLi>
+                                <img src={notion} alt='Notion' className='text-light' />
+                                <span>Notion</span>
+                            </SkillsLi> 
+                            <SkillsLi>
+                                <img src={git} alt='Github' className='text-light' />
+                                <span>Github</span>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <img src={excel} alt='Ms Office' className='text-light' />
+                                <span>Office</span>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <img src={vscode} alt='Vs Code' className='text-light' />
+                                <span>Vs Code</span>
+                            </SkillsLi>
+                        </SkillsListContainer>
+                    </Tab>
+                </StyledTabs>
             </SkillsUl> 
         </SkillsContainer>
     );
 };
-
-export default Skills;

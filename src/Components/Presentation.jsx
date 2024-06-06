@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 // import SocialIcons from "./SocialIcons";
 
-
+//#region 
 const AboutContainer = styled(Container)`
     display: flex;
     flex-direction: column;
@@ -40,12 +40,12 @@ const TypewriterContainer = styled.div`
         50% { opacity: 0 }
     }
 `;
+//#endregion
 
 export const Presentation = () => {
 return (
         <AboutContainer>
             <Title 
-                // className='text-light' 
                 initial={{ scale: 0.5, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ delay: 0, duration: 0.5, type: "spring" }}>
@@ -66,4 +66,3 @@ return (
     );
 };
 
-export default Presentation;

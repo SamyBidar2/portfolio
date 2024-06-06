@@ -1,7 +1,6 @@
 import React from 'react';
 import { ProjectCard } from './ProjectCard';
 import projectdatas from '../Datas/projectsdatas.json';
-// import styles from './ProjectList.module.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

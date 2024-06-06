@@ -1,124 +1,47 @@
 [
     {   
-        "id":"7",
+        "id":"4",
         "jobtitle": "Formation Intégrateur Web",
         "date": "11/2023 - 08/2024",
-        "description" :"Test et Validation de logiciel au sein du",
+        "description" :" Types de missions au cours de la formation : \nCréer une application web complète et responsive. \nDynamiser des pages web. \nCréer des interfaces communiquant avec le back-end du site. \nOptimiser les performances et réaliser la maintenance de sites web. \nGérer un projet web de A à Z : du chiffrage et découpage des tâches du projet à la présentation de la solution, en passant par la rédaction des spécifications techniques. ",
         "company":"Open Classrooms",
         "category": {
             "tag": "Intégration Web, Développement Web, React, Javascript, HTML, CSS",
             "color": "#018f69"
-        },
-        "link": {
-            "url":
-                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
-            "text": "Read more"
-        },
-        "pictures": ""
-    },
-    {   
-        "id":"6",
-        "jobtitle": "Co-gérant",
-        "date": "2022-2024",
-        "description" :" Coucou",
-        "company":"Upperground Production",
-        "category": {
-            "tag": "medium",
-            "color": "#018f69"
-        },
-        "link": {
-            "url":
-                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
-            "text": "Read more"
-        },
-        "pictures": ""
-    },
-    
-    {   
-        "id":"5",
-        "jobtitle": "Testeur de logiciel / chargé de Validation",
-        "date": "2016-2021",
-        "description" :"Test et Validation de logiciel au sein du",
-        "company":"CPAM du Puy du Dôme",
-        "category": {
-            "tag": "Recettte Fonctionnelle, Tests, Automatisation de tests, spécifications fonctionnelles",
-            "color": "#018f69"
-        },
-        "link": {
-            "url":
-                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
-            "text": "Read more"
-        },
-        "pictures": ""
-    },
-    {   
-        "id":"4",
-        "jobtitle": "Ingénieur du son",
-        "date": "2014-2024",
-        "description" :"",
-        "company":"freelance - Upperground Studio",
-        "category": {
-            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
-            "color": "#018f69"
-        },
-        "link": {
-            "url":
-                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
-            "text": "Read more"
-        },
-        "pictures": ""
+        }
     },
     {   
         "id":"3",
-        "jobtitle": "Master 2 - Ingénierie du son",
-        "date": "2014",
-        "description" :"",
-        "company":"freelance - Upperground Studio",
+        "jobtitle": "Co-gérant - Le Rimshot",
+        "date": "2022-2024",
+        "description" :"Création de l’établissement ‘Le Rimshot’ (Restaurant, Bar, Concerts). Gestion de l’établissement, Programmation et promotion de spectacles (Booking Artistes, Promotion, Marketing Digital)",
+        "company":"Upperground Production",
         "category": {
-            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
+            "tag": "Gestion de projet, Marketing digital, Promotion",
             "color": "#018f69"
-        },
-        "link": {
-            "url":
-                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
-            "text": "Read more"
-        },
-        "pictures": ""
+        }
     },
+    
     {   
         "id":"2",
-        "jobtitle": "Licence - Ingénierie éléctronique et électrotechnique",
-        "date": "2012",
-        "description" :"",
-        "company":"freelance - Upperground Studio",
+        "jobtitle": "Testeur de logiciel / chargé de Validation",
+        "date": "2016-2021",
+        "description" :"Test et validation de logiciels et d’applications, étude de spécifications fonctionnelles, réalisation de matrices de tests, suivi des signalements, Création d’automates de test (Ranorex, C#).",
+        "company":"CPAM du Puy du Dôme",
         "category": {
-            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
+            "tag": "Recette Fonctionnelle, Tests, Automatisation de tests, Spécifications fonctionnelles, Reporting, Ranorex, C#",
             "color": "#018f69"
-        },
-        "link": {
-            "url":
-                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
-            "text": "Read more"
-        },
-        "pictures": ""
+        }
     },
     {   
         "id":"1",
-        "jobtitle": "DUT - Réseaux et Télécommunications ",
-        "date": "2010",
-        "description" :"",
+        "jobtitle": "Ingénieur du son",
+        "date": "2014-2021",
+        "description" :" Enregistrement de MARINA KAYE, MASHROU LEILA, MATHIEU SAIKALY, « Les Gourmand nés » (Chefs REGIS et JACQUES MARCON, SERGE VIERA , LE BUS 26, ...)",
         "company":"freelance - Upperground Studio",
         "category": {
             "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
             "color": "#018f69"
-        },
-        "link": {
-            "url":
-                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
-            "text": "Read more"
-        },
-        "pictures": ""
-    }
-   
-   
+        }
+    }   
 ]

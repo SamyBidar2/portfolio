@@ -1,0 +1,72 @@
+[
+    {   
+        "id":"4",
+        "jobtitle": "Formation Intégrateur Web",
+        "date": "11/2023 - 08/2024",
+        "description" :"Formation ",
+        "company":"Open Classrooms",
+        "category": {
+            "tag": "Intégration Web, Développement Web, React, Javascript, HTML, CSS",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
+    },  
+    {   
+        "id":"3",
+        "jobtitle": "Master 2 - Ingénierie du son",
+        "date": "2014",
+        "description" :"",
+        "company":"freelance - Upperground Studio",
+        "category": {
+            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
+    },
+    {   
+        "id":"2",
+        "jobtitle": "Licence - Ingénierie éléctronique et électrotechnique",
+        "date": "2012",
+        "description" :"",
+        "company":"freelance - Upperground Studio",
+        "category": {
+            "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
+    },
+    {   
+        "id":"1",
+        "jobtitle": "DUT ",
+        "date": "2010",
+        "description" :"",
+        "company":"Réseaux et Télécommunications",
+        "category": {
+            "tag": "",
+            "color": "#018f69"
+        },
+        "link": {
+            "url":
+                "https://medium.com/@popflorin1705/javascript-coding-challenge-1-6d9c712963d2",
+            "text": "Read more"
+        },
+        "pictures": ""
+    }
+   
+   
+]
