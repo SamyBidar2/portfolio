@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Card as BootstrapCard } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleNodes } from '@fortawesome/free-solid-svg-icons';
 
-
+//#region 
 const Card = styled(BootstrapCard)`
     // width: 760px;
     //height: 350px;
@@ -69,11 +70,11 @@ color: var(--Adaptive-Weak, rgba(255, 255, 255, 0.60));
     line-height: 24px;  
     margin-bottom : 20px;           
 `;
+//#endregion
 
-
-export const ProjectCard = ({ project }) => {
+export const ProjectCard = ({ project, onCardClick }) => {
     return (
-        <Card>
+        <Card onClick={() => onCardClick(project)}>
             <CardImg src={project.cover} />
             <CardBody>
                 <ProjectIcone icon={faCircleNodes} />
@@ -85,7 +86,6 @@ export const ProjectCard = ({ project }) => {
         </Card>
     );
 };
-
 
 
 // import { Card } from 'react-bootstrap'

@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ProjectCard } from './ProjectCard';
+import { ProjectModal } from './ProjectModal';
 import projectdatas from '../Datas/projectsdatas.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import allprojectimage from '../Images/allprojects.jpg';
 import styled from 'styled-components';
 import { Card as ApCard, Col, Row, Container, Button } from 'react-bootstrap';
 
+
+//#region 
 const ProjectFocusContainer = styled(Container)`
     display: flex;
     flex-direction: column;
@@ -122,8 +125,23 @@ const FullWidthCard = styled(Col)`
         width: 100%;
     }
 `;
+//#endregion
+
 
 export const ProjectFocus = () => {
+    const [showModal, setShowModal] = useState(false);
+    const [selectedProject, setSelectedProject] = useState(null);
+
+    const handleCardClick = (project) => {
+        setSelectedProject(project);
+        setShowModal(true);
+    };
+
+    const handleCloseModal = () => {
+        setShowModal(false);
+        setSelectedProject(null);
+    };
+
     const reactproject = projectdatas.find(project => project.focus === 'React');
     const jsproject = projectdatas.find(project => project.focus === 'JS');
     const cssproject = projectdatas.find(project => project.focus === 'CSS');
@@ -133,13 +151,13 @@ export const ProjectFocus = () => {
             <ProjectTitle className='text-light'>Projets</ProjectTitle>
             <Row>
                 <ResponsiveCol xs={12} md={12} lg={4}>
-                    <ProjectCard project={reactproject} />
+                    <ProjectCard project={reactproject} onCardClick={handleCardClick} />
                 </ResponsiveCol>
                 <ResponsiveCol xs={12} md={12} lg={4}>
-                    <ProjectCard project={jsproject} />
+                    <ProjectCard project={jsproject} onCardClick={handleCardClick} />
                 </ResponsiveCol>
                 <ResponsiveCol xs={12} md={12} lg={4}>
-                    <ProjectCard project={cssproject} />
+                    <ProjectCard project={cssproject} onCardClick={handleCardClick} />
                 </ResponsiveCol>
             </Row>
             <Row>
@@ -156,6 +174,14 @@ export const ProjectFocus = () => {
                     </StyledCard>
                 </FullWidthCard>
             </Row>  
+
+            {selectedProject && (
+                <ProjectModal
+                    show={showModal}
+                    onHide={handleCloseModal}
+                    project={selectedProject}
+                />
+            )}
         </ProjectFocusContainer>
     );
 };
