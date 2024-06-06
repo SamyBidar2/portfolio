@@ -25,9 +25,9 @@
           "J'ai également utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Ce qui m'a permis de comprendre comment gérer efficacement le routage dans une application web moderne. Dans le contexte de ce projet il m'était demandé de me concentrer exclusivement sur le développement front-end, en me basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.",
           "En terme d'outils, j'ai utilisé Create React APP pour faciliter la configuration initiale de React, Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
         ],
-        "cover": "https://picsum.photos/200/100",
-        "image2": "https://picsum.photos/200/100",
-        "image3": "https://picsum.photos/200/100",
+        "cover": "/Images/Projects/Kasa-Logement-min.webp",
+        "image2": "/Images/Projects/Kasa-Apropos-min.webp",
+        "image3": "/Images/Projects/Kasa-home-min.webp",
         "technologies": ["React", "React Router", "HTML", "CSS", "Sass"],
         "tag": "Formation",
         "github": "https://github.com/SamyBidar2/kasa",

@@ -80,7 +80,7 @@ export const ProjectCard = ({ project, onCardClick }) => {
                 <ProjectIcone icon={faCircleNodes} />
                 <TextContainer>
                     <CardTitle>{project.title}</CardTitle>
-                    <CardText>{project.description}</CardText>
+                    <CardText>{project.shortdescrition}</CardText>
                 </TextContainer>
             </CardBody>
         </Card>

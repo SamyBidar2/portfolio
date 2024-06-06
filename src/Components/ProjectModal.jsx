@@ -77,9 +77,9 @@ export const ProjectModal = ({ show, onHide, project }) => {
             </StyledModalHeader>
             <StyledModalBody>
                 <StyledCarousel data-bs-theme="dark">
-                    {/* <Carousel.Item>
+                    <Carousel.Item>
                         <CarousselImg src={project.cover} alt='illustration du projet' />
-                    </Carousel.Item> */}
+                    </Carousel.Item> 
                     <Carousel.Item>
                         <CarousselImg src={project.image2} alt='illustration du projet' />
                     </Carousel.Item>
