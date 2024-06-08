@@ -77,15 +77,11 @@ export const ProjectModal = ({ show, onHide, project }) => {
             </StyledModalHeader>
             <StyledModalBody>
                 <StyledCarousel data-bs-theme="dark">
-                    <Carousel.Item>
-                        <CarousselImg src={project.cover} alt='illustration du projet' />
-                    </Carousel.Item> 
-                    <Carousel.Item>
-                        <CarousselImg src={project.image2} alt='illustration du projet' />
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <CarousselImg src={project.image3} alt='illustration du projet' />
-                    </Carousel.Item>
+                    {project.ModalImages.map((modalImage, index) => (
+                        <Carousel.Item key={`${project.id}-${index}`}>
+                            <CarousselImg src={modalImage} alt='illustration du projet' />
+                        </Carousel.Item>
+                    ))}
                 </StyledCarousel>
                 {Array.isArray(project.description) ? (
                     project.description.map((element, index) => (

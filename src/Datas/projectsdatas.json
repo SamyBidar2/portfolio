@@ -7,9 +7,15 @@
           "J'ai également créé une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias. Ces éléments ont été développés from scratch, afin de mettre en pratique mes compétences en JavaScript de manière approfondie. Dans ce projet j'ai eu accès à un code back-end pour tester les fonctionnalités.", 
           "J'ai appris à communiquer avec une API, ce qui est crucial pour les applications web modernes. En terme d'outils, j'ai utilisé Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
         ],
-        "cover": "https://picsum.photos/200/100",
-        "image2": "https://picsum.photos/200/100",
-        "image3": "https://picsum.photos/200/100",
+        "cover": "Images/Projects/SophieBluel/SB-accueil.webp",
+        "image2": "Images/Projects/SophieBluel/SB-Galerie.webp",
+        "image3": "Images/Projects/SophieBluel/SB-Modal.webp",
+        "ModalImages" :[
+          "/Images/Projects/SophieBluel/SB-accueil.webp",
+          "/Images/Projects/SophieBluel/SB-Galerie.webp",
+          "/Images/Projects/SophieBluel/SB-Modal.webp",
+          "/Images/Projects/SophieBluel/SB-ajoutImage.webp"
+        ],
         "technologies": ["JavaScript", "API", "HTML", "CSS", "Sass"],
         "tag": "Formation",
         "github": "https://github.com/SamyBidar2/Module-6-Sophie-Bluel",
@@ -25,9 +31,14 @@
           "J'ai également utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Ce qui m'a permis de comprendre comment gérer efficacement le routage dans une application web moderne. Dans le contexte de ce projet il m'était demandé de me concentrer exclusivement sur le développement front-end, en me basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.",
           "En terme d'outils, j'ai utilisé Create React APP pour faciliter la configuration initiale de React, Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
         ],
-        "cover": "/Images/Projects/Kasa-Logement-min.webp",
-        "image2": "/Images/Projects/Kasa-Apropos-min.webp",
-        "image3": "/Images/Projects/Kasa-home-min.webp",
+        "cover": "/Images/Projects/Kasa/Kasa-Logement.webp",
+        "image2": "/Images/Projects/Kasa/Kasa-Apropos.webp",
+        "image3": "/Images/Projects/Kasa/Kasa-home.webp",
+        "ModalImages" :[
+          "/Images/Projects/Kasa/Kasa-Logement.webp",
+          "/Images/Projects/Kasa/Kasa-Apropos.webp",
+          "/Images/Projects/Kasa/Kasa-home.webp"
+        ],
         "technologies": ["React", "React Router", "HTML", "CSS", "Sass"],
         "tag": "Formation",
         "github": "https://github.com/SamyBidar2/kasa",

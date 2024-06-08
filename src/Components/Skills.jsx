@@ -61,12 +61,12 @@ const SkillsLi = styled.li`
     border: 1px solid;
     border-radius: 5px;
     @media (max-width: 768px) {
-        height: 80px;
-        width: 80px;
+        height: 100px;
+        width: 100px;
     }
     @media (max-width: 480px) {
-        height: 60px;
-        width: 60px;
+        height: 80px;
+        width: 80px;
     }
 `;
 
@@ -106,6 +106,16 @@ const StyledTabs = styled(Tabs)`
         height:42px;
     }
 `;
+
+const Styledspan = styled.span`
+    font-size: 16px;
+    @media (max-width: 768px) {
+       font-size: 14px
+    }
+    @media (max-width: 480px) {
+        font-size: 12px;
+    }
+`
 //#endregion
 
 export const Skills = () => {
@@ -123,23 +133,23 @@ export const Skills = () => {
                         <SkillsListContainer>
                             <SkillsLi>
                                 <SkillsIcone icon={faJs} className='text-light' />
-                                <span>Javascript</span>
+                                <Styledspan>Javascript</Styledspan>
                             </SkillsLi> 
                             <SkillsLi>
                                 <SkillsIcone icon={faReact} className='text-light' />
-                                <span>React</span>
+                                <Styledspan>React</Styledspan>
                             </SkillsLi>
                             <SkillsLi>
                                 <SkillsIcone icon={faHtml5} className='text-light' />
-                                <span>Html 5</span>
+                                <Styledspan>Html 5</Styledspan>
                             </SkillsLi>
                             <SkillsLi>
                                 <SkillsIcone icon={faCss3} className='text-light' />
-                                <span>Css 3</span>
+                                <Styledspan>Css 3</Styledspan>
                             </SkillsLi>
                             <SkillsLi>
                                 <SkillsIcone icon={faSass} className='text-light' />
-                                <span>Sass</span>
+                                <Styledspan>Sass</Styledspan>
                             </SkillsLi> 
                         </SkillsListContainer>
                     </Tab>
@@ -147,23 +157,23 @@ export const Skills = () => {
                         <SkillsListContainer>
                             <SkillsLi>
                                 <img src={adapt} alt='Adaptation' className='text-light' />
-                                <span>Adaptation</span>
+                                <Styledspan>Adaptation</Styledspan>
                             </SkillsLi> 
                             <SkillsLi>
                                 <img src={team} alt='Equipe' className='text-light' />
-                                <span>Equipe</span>
+                                <Styledspan>Equipe</Styledspan>
                             </SkillsLi>
                             <SkillsLi>
                                 <img src={tenace} alt='Persévérance' className='text-light' />
-                                <span>Persévérance</span>
+                                <Styledspan>Persévérance</Styledspan>
                             </SkillsLi>
                             <SkillsLi>
                                 <img src={learn} alt='Apprentissage' className='text-light' />
-                                <span>Apprentissage</span>
+                                <Styledspan>Apprentissage</Styledspan>
                             </SkillsLi>
                             <SkillsLi>
                                 <img src={empathie} alt='Empathie' className='text-light' />
-                                <span>Empathie</span>
+                                <Styledspan>Empathie</Styledspan>
                             </SkillsLi>
                         </SkillsListContainer>
                     </Tab>
@@ -171,19 +181,19 @@ export const Skills = () => {
                         <SkillsListContainer>
                             <SkillsLi>
                                 <img src={notion} alt='Notion' className='text-light' />
-                                <span>Notion</span>
+                                <Styledspan>Notion</Styledspan>
                             </SkillsLi> 
                             <SkillsLi>
                                 <img src={git} alt='Github' className='text-light' />
-                                <span>Github</span>
+                                <Styledspan>Github</Styledspan>
                             </SkillsLi>
                             <SkillsLi>
                                 <img src={excel} alt='Ms Office' className='text-light' />
-                                <span>Office</span>
+                                <Styledspan>Office</Styledspan>
                             </SkillsLi>
                             <SkillsLi>
                                 <img src={vscode} alt='Vs Code' className='text-light' />
-                                <span>Vs Code</span>
+                                <Styledspan>Vs Code</Styledspan>
                             </SkillsLi>
                         </SkillsListContainer>
                     </Tab>
