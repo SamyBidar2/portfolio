@@ -1,15 +1,13 @@
 [
 	{     "id": "1",
         "title": "Créez une page web dynamique avec Javascript",
-        "shortdescrition":"Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API",
+        "shortdescrition":"Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.",
         "description": [
           "Création d'une page web dynamique pour le site internet d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API. Travail sur la partie Front-End du site, où j'ai développé la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela implique la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript.", 
           "J'ai également créé une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias. Ces éléments ont été développés from scratch, afin de mettre en pratique mes compétences en JavaScript de manière approfondie. Dans ce projet j'ai eu accès à un code back-end pour tester les fonctionnalités.", 
           "J'ai appris à communiquer avec une API, ce qui est crucial pour les applications web modernes. En terme d'outils, j'ai utilisé Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
         ],
         "cover": "Images/Projects/SophieBluel/SB-accueil.webp",
-        "image2": "Images/Projects/SophieBluel/SB-Galerie.webp",
-        "image3": "Images/Projects/SophieBluel/SB-Modal.webp",
         "ModalImages" :[
           "/Images/Projects/SophieBluel/SB-accueil.webp",
           "/Images/Projects/SophieBluel/SB-Galerie.webp",
@@ -32,8 +30,6 @@
           "En terme d'outils, j'ai utilisé Create React APP pour faciliter la configuration initiale de React, Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
         ],
         "cover": "/Images/Projects/Kasa/Kasa-Logement.webp",
-        "image2": "/Images/Projects/Kasa/Kasa-Apropos.webp",
-        "image3": "/Images/Projects/Kasa/Kasa-home.webp",
         "ModalImages" :[
           "/Images/Projects/Kasa/Kasa-Logement.webp",
           "/Images/Projects/Kasa/Kasa-Apropos.webp",
@@ -47,17 +43,22 @@
       },
       {
         "id": "3",
-        "title": "SEO",
-        "shortdescrition":"Implémentation du front-end d’une application avec React et React Router pour créer une expérience utilisateur moderne et réactive.",
+        "title": "Optimisez le référencement d'un site de photographe",
+        "shortdescrition":"Optimisation du référencement d’un site, en améliorant sa performance et son accessibilité.",
         "description": [
-          "Dans ce projet, j'ai implémenté le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive. J'ai travaillé sur la logique de présentation des données et les composants React, une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur. ", 
-          "J'ai également utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Ce qui m'a permis de comprendre comment gérer efficacement le routage dans une application web moderne. Dans le contexte de ce projet il m'était demandé de me concentrer exclusivement sur le développement front-end, en me basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.",
-          "En terme d'outils, j'ai utilisé Create React APP pour faciliter la configuration initiale de React, Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
+          "Dans ce projet, j'ai optimisé le référencement d’un site, en améliorant sa performance et son accessibilité.",
+          "Ma première tâche a été d'identifier les problèmes de chargement et de référencement.",
+          "J'ai ensuite apporté des modifications sur la structure du code, minifié les fichiers, redimmensionné et réduit le poids des images. J'ai aussi ajouté un Opengraph, et des Rich Snippet",
+          "Enfin j'ai rédigé un rapport résumant toutes les modifications apportées, et montrant les résultats obtenus après optimisation du site",
+          "En terme d'outils, j'ai uilisé Lighthouse pour analyser les performances et Wave pour l'accessibilité."
         ],
-        "cover": "https://picsum.photos/200/100",
-        "image2": "https://picsum.photos/200/100",
-        "image3": "https://picsum.photos/200/100",
-        "technologies": ["React", "React Router", "HTML", "CSS", "Sass"],
+        "cover": "/Images/Projects/Kasa/Kasa-Logement.webp",
+       "ModalImages" :[
+          "/Images/Projects/Kasa/Kasa-Logement.webp",
+          "/Images/Projects/Kasa/Kasa-Apropos.webp",
+          "/Images/Projects/Kasa/Kasa-home.webp"
+        ],
+        "technologies": ["HTML", "CSS", "SEO", "Lighthouse", "Opengraph","Rich Snippets"],
         "tag": "Formation",
         "github": "https://github.com/SamyBidar2/kasa",
         "deployed": "",        
