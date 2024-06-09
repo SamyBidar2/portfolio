@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Card as BootstrapCard } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -18,10 +18,17 @@ const Card = styled(BootstrapCard)`
     background: #15181e;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 16px 0px rgba(0, 0, 0, 0.60);
     backdrop-filter: blur(12px);
+
+    &:hover {
+        // background: #22272e; /* Change background color on hover */
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 2px 4px 0px rgba(0, 0, 0, 0.16), 0px 2px 4px 0px rgba(0, 0, 0, 0.32); 
+        // filter: drop-shadow(0 0 1px #8A2BE2); 
+        filter: drop-shadow(0 0 1px #22272e); 
+    }
 `;
 
 const CardImg = styled(BootstrapCard.Img)`
-    border-radius: 10px;    
+    border-radius: 10px;   
 `;
 
 const CardBody = styled(BootstrapCard.Body)`
@@ -32,8 +39,7 @@ const CardBody = styled(BootstrapCard.Body)`
     align-self: stretch; 
     gap: 24px;
     box-sizing: border-box;
-    padding: 12px 20px;
-        
+    padding: 12px 20px;    
 `;
 
 const TextContainer = styled.div`
@@ -52,17 +58,20 @@ const ProjectIcone = styled(FontAwesomeIcon)`
 `;
 
 const CardTitle = styled(BootstrapCard.Title)`
-    color: var(--Adaptive-Medium, rgba(255, 255, 255, 0.80));
+    // color: var(--Adaptive-Medium, rgba(255, 255, 255, 0.80));
+    color:white;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;  
-    margin:0;            
+    margin:0;          
+
 `;
 
 const CardText = styled(BootstrapCard.Text)`
-color: var(--Adaptive-Weak, rgba(255, 255, 255, 0.60));
+    color: var(--Adaptive-Weak, rgba(255, 255, 255, 0.85));
+    // color:white;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;

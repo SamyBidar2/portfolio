@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Carousel, Modal } from 'react-bootstrap';
+import { Button, Carousel, Modal } from 'react-bootstrap';
 
 //#region 
 const SkillsList = styled.ul`
@@ -20,6 +20,7 @@ const SkillsTag = styled.li`
     box-sizing: border-box;
     padding: 5px;
     background-color: white;
+    font-size:12px;
 `;
 
 const StyledCarousel = styled(Carousel)`
@@ -57,7 +58,21 @@ const StyledModalBody = styled(Modal.Body)`
 
 const StyledModalFooter = styled(Modal.Footer)`
     background: #15181e;
+    display:flex;
+    justify-content:space-between;
 `;
+
+const StyledButton = styled(Button)`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+    font-size:14px;
+`
 //#endregion
 
 export const ProjectModal = ({ show, onHide, project }) => {
@@ -96,6 +111,7 @@ export const ProjectModal = ({ show, onHide, project }) => {
                 )}
             </StyledModalBody>
             <StyledModalFooter>
+                <StyledButton variant="light">Voir Plus</StyledButton>
                 <SkillsList>
                     {project.technologies.map((element, index) => (
                         <SkillsTag key={`${index}-${element}`}>

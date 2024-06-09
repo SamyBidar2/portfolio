@@ -4,6 +4,7 @@ import { Presentation } from '../../Components/Presentation';
 import { ProjectFocus } from '../../Components/ProjectFocus';
 import { Skills } from '../../Components/Skills';
 import { Timeline } from '../../Components/Timeline';
+import { Contact } from '../../Components/Contact';
 
 import './index.scss';
 
@@ -19,6 +20,9 @@ export const Home = () => {
       <section id="about">
         <Skills/>
         <Timeline/>
+      </section>
+      <section id='contact'>
+        <Contact/>
       </section>
     </Container>
   );
