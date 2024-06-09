@@ -81,7 +81,7 @@ const CardText = styled(BootstrapCard.Text)`
     font-style: normal;
     font-weight: 400;
     line-height: 24px;  
-    margin-bottom : 20px;           
+    // margin-bottom : 20px;           
 `;
 
 const MailImg = styled.img`
@@ -99,6 +99,7 @@ export const Contact = () => {
               <TextContainer>
                   <CardTitle>Me contacter par Mail</CardTitle>
                   <CardText>samybidarpro@gmail.com</CardText>
+                  <CardText>06.98.50.37.79</CardText>
               </TextContainer>
               <MailImg src={mail} alt=''/>
           </CardBody>

@@ -8,7 +8,7 @@ import { faCircleNodes } from '@fortawesome/free-solid-svg-icons';
 //#region 
 const Card = styled(BootstrapCard)`
     // width: 760px;
-    //height: 500px;
+    height: 518px;
     padding: 8px;
     box-sizing: border-box;
     gap: 15px; 
