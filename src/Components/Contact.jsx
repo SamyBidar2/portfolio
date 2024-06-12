@@ -3,7 +3,10 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import {  Card as BootstrapCard  } from 'react-bootstrap';
+
 import mail from '../Images/mail.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAt, faMobileScreen} from '@fortawesome/free-solid-svg-icons';
 
 //#region 
 const ContactContainer = styled(Container)`
@@ -67,11 +70,12 @@ const TextContainer = styled.div`
 const CardTitle = styled(BootstrapCard.Title)`
     color:white;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 24px;  
-    margin:0;            
+    margin:0;   
+    width:400px;         
 `;
 
 const CardText = styled(BootstrapCard.Text)`
@@ -88,6 +92,18 @@ const MailImg = styled.img`
   height: 150px;
   //width: 100%;
 `
+const StyleIconContainer = styled(Container)`
+  display :flex;
+  justify-content:flex-start;
+  align-content:center;
+  align-items:center;
+  gap:8px;
+`
+
+const StyledIcone = styled(FontAwesomeIcon)`
+  color:white;
+  font-size:16px
+`
 //#endregion
 
 export const Contact = () => {
@@ -97,9 +113,18 @@ export const Contact = () => {
         <Card>
           <CardBody>
               <TextContainer>
-                  <CardTitle>Me contacter par Mail</CardTitle>
-                  <CardText>samybidarpro@gmail.com</CardText>
-                  <CardText>06.98.50.37.79</CardText>
+                  <CardTitle>Envie de discuter de votre projet autour d'un café ou d'une visioconférence? </CardTitle>
+                  {/* <CardTitle>Contactez-moi par email ou par téléphone et prenons rendez-vous !</CardTitle> */}
+                  <Container>
+                    <StyleIconContainer>
+                      <StyledIcone icon={faAt}/>
+                      <CardText>samybidarpro@gmail.com</CardText>
+                    </StyleIconContainer>
+                    <StyleIconContainer>
+                      <StyledIcone icon={faMobileScreen}/>
+                      <CardText>06.98.50.37.79</CardText>
+                    </StyleIconContainer>
+                  </Container>
               </TextContainer>
               <MailImg src={mail} alt=''/>
           </CardBody>

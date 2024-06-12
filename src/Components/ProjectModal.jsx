@@ -112,7 +112,7 @@ export const ProjectModal = ({ show, onHide, project }) => {
             </StyledModalBody>
             <StyledModalFooter>
                 <StyledButton variant="light">
-                    <a href={project.github}>Voir Plus</a>
+                    <a href={project.github} target="_blank" rel="noreferrer">Voir Plus</a>
                 </StyledButton>
                 <SkillsList>
                     {project.technologies.map((element, index) => (

@@ -48,7 +48,7 @@ export const Navlinks = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.3, duration: 0.5, type: 'spring' }}
               >
-                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                <Nav.Link className='text-light' href="#portfolio">Portfolio</Nav.Link>
               </motion.div>
 
               <motion.div
@@ -56,7 +56,7 @@ export const Navlinks = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.2, duration: 0.5, type: 'spring' }}
               >
-                <Nav.Link href="#about">À Propos</Nav.Link>
+                <Nav.Link className='text-light' href="#about">À Propos</Nav.Link>
               </motion.div>
             </Nav>
           </Navbar.Collapse>

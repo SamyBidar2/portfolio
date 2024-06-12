@@ -52,7 +52,7 @@ export const Footer = () => {
             <Footertext>Samy Bidar ©</Footertext>
             <WorkTogether>
                 <Footertext>Travaillons Ensemble </Footertext>
-                <a href='#' target="_blank" rel="noreferrer"><PenIcon icon={faPencil} className='text-light'/></a>
+                <a href="mailto:samybidarpro@gmail.com" target="_blank" rel="noreferrer"><PenIcon icon={faPencil} className='text-light'/></a>
             </WorkTogether>
             <IconContainer>
                 <a href='https://github.com/SamyBidar2' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className='text-light' /></a>

@@ -28,7 +28,8 @@ const Card = styled(BootstrapCard)`
 `;
 
 const CardImg = styled(BootstrapCard.Img)`
-    border-radius: 10px;   
+    border-radius: 10px;  
+    // filter: grayscale(100%); 
 `;
 
 const CardBody = styled(BootstrapCard.Body)`
