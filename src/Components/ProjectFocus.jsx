@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ProjectCard } from './ProjectCard';
 import { ProjectModal } from './ProjectModal';
 import projectdatas from '../Datas/projectsdatas.json';
@@ -141,7 +142,7 @@ export const ProjectFocus = () => {
         setShowModal(false);
         setSelectedProject(null);
     };
-
+    const navigate = useNavigate();
     const reactproject = projectdatas.find(project => project.focus === 'React');
     const jsproject = projectdatas.find(project => project.focus === 'JS');
     const cssproject = projectdatas.find(project => project.focus === 'CSS');
@@ -168,7 +169,7 @@ export const ProjectFocus = () => {
                             <CardContainer>
                                 <CardTitle>Un aperçu de tous mes Projets</CardTitle>
                                 <CardText>Retrouvez ici l'intégralité des projets sur lesquels j'ai travaillé</CardText>
-                                <CardButton variant="outline-light" size="sm">Voir plus</CardButton>
+                                <CardButton variant="outline-light" size="sm" onClick={() => navigate('/allprojects')} >Voir plus</CardButton>
                             </CardContainer>
                         </StyledCardBody>
                     </StyledCard>

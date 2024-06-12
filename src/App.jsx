@@ -5,8 +5,10 @@ import { Navlinks } from './Components/Navlink';
 // import { Navlinks2 } from './Components/Navlinks2';
 import { Home } from './Pages/Home';
 import { Error } from './Pages/Error';
+import { AllProjects } from './Pages/Allprojects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       {/* <Navlinks2/> */}
       <Routes>
         <Route path ='/' element={<Home />} />
+        <Route path ='/Allprojects' element={<AllProjects />} />
         <Route path ="*" element={<Error />} />
       </Routes>
       <Footer />

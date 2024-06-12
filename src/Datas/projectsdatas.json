@@ -73,11 +73,9 @@
           "Pour ce premier épisode des Gourmands Nés, Raphaël et Alexandra DUBERNAT ont invité des amis producteurs et restaurateurs à partager un moment de convivialité dans leur établissement.",
           "Fanny Agostini nous raconte leur histoire."
         ],
-        "cover": "/Images/Projects/SEO/Nina.webp",
+        "cover": "/Images/Projects/Sound/Gourmands/Gorumands-1-cover.webp",
        "ModalImages" :[
-          "/Images/Projects/SEO/Nina.webp",
-          "/Images/Projects/Kasa/Kasa-Apropos.webp",
-          "/Images/Projects/Kasa/Kasa-home.webp"
+          "/Images/Projects/Sound/Gourmands/Gourmands-1-patisserie.webp"
         ],
         "technologies": ["Prise de son", "Voix off"],
         "tag": "Sound",
@@ -87,22 +85,40 @@
       },
       {
         "id": "4",
-        "title": "Les gourmands nés épisode 1",
-        "shortdescrition":"Enregistrement des voix off avec Fanny Agostini",
+        "title": "Les gourmands nés épisode 2",
+        "shortdescrition":"Régie Technique. Prise de son, Edition sonore, Mixage.",
         "description": [
-          "L'Auberge de La Moreno est un lieu incontournable pour les amateurs des bons produits auvergnats. ",
-          "Pour ce premier épisode des Gourmands Nés, Raphaël et Alexandra DUBERNAT ont invité des amis producteurs et restaurateurs à partager un moment de convivialité dans leur établissement.",
+          "Pour ce deuxième épisode, Serge Vieira, bocuse d'or 2005, reçoit les Gourmands Nés dans son château situé à Chaudes-Aigues dans le Cantal. ",
           "Fanny Agostini nous raconte leur histoire."
         ],
-        "cover": "/Images/Projects/SEO/Nina.webp",
+        "cover": "/Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
        "ModalImages" :[
-          "/Images/Projects/SEO/Nina.webp",
-          "/Images/Projects/Kasa/Kasa-Apropos.webp",
-          "/Images/Projects/Kasa/Kasa-home.webp"
+          "/Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
+          "/Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp"
         ],
-        "technologies": ["Prise de son", "Voix off"],
+        "technologies": ["Prise de son", "Edition", "Mixage", "Câblage", "Régie technique" ],
         "tag": "Sound",
-        "github": "https://www.youtube.com/watch?v=D4nXwy4squQ",
+        "github": "https://www.youtube.com/watch?v=GkX2b7GBVUA&t=1175s",
+        "deployed": "",        
+        "focus" : "none"
+      },
+      {
+        "id": "5",
+        "title": "Les gourmands nés épisode 3",
+        "shortdescrition":"Régie Technique, installation et configuration d'une régie mobile.  Prise de son, Edition et Conception sonore, Mixage.",
+        "description": [
+          "Le temps d'un repas Fanny Agostini, Régis Marcon et Jacques Marcon et Charles Moncouyoux accompagnés de leurs hôtes reviennent avec passion sur leur métier, et les valeurs qu'ils défendent.",
+          "Nature et transmission sont les thèmes abordés dans ce troisième épisode."
+        ],
+        "cover": "/Images/Projects/Sound/Gourmands/Gourmands-3-cover.webp",
+       "ModalImages" :[
+          "/Images/Projects/Sound/Gourmands/Gourmands-3-cover.webp",
+          "/Images/Projects/Sound/Gourmands/Gourmands-3-dégustation.webp",
+          "/Images/Projects/Sound/Gourmands/gourmands-3-Fanny-Agostini.webp"
+        ],
+        "technologies": ["Prise de son", "Edition", "Sound design", "Mixage", "Câblage", "Régie technique" ],
+        "tag": "Sound",
+        "github": "https://www.youtube.com/watch?v=gDEBZvi4C5s&t=302s",
         "deployed": "",        
         "focus" : "none"
       }
