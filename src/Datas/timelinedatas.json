@@ -2,7 +2,7 @@
     {   
         "id":"4",
         "jobtitle": "Formation Intégrateur Web",
-        "date": "11/2023 - 08/2024",
+        "date": "2023-2024",
         "description" :" Types de missions au cours de la formation : \nCréer une application web complète et responsive. \nDynamiser des pages web. \nCréer des interfaces communiquant avec le back-end du site. \nOptimiser les performances et réaliser la maintenance de sites web. \nGérer un projet web de A à Z : du chiffrage et découpage des tâches du projet à la présentation de la solution, en passant par la rédaction des spécifications techniques. ",
         "company":"Open Classrooms",
         "category": {
@@ -38,7 +38,7 @@
         "jobtitle": "Ingénieur du son",
         "date": "2014-2021",
         "description" :" Enregistrement de MARINA KAYE, MASHROU LEILA, MATHIEU SAIKALY, « Les Gourmand nés » (Chefs REGIS et JACQUES MARCON, SERGE VIERA , LE BUS 26, ...)",
-        "company":"freelance - Upperground Studio",
+        "company":"Freelance - Upperground Studio",
         "category": {
             "tag": "Enregistrement, Prise de son, Mixage, Sound Design, Edition, Correction Vocale",
             "color": "#018f69"

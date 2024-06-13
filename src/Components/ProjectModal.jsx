@@ -111,7 +111,7 @@ export const ProjectModal = ({ show, onHide, project }) => {
                 )}
             </StyledModalBody>
             <StyledModalFooter>
-                <StyledButton variant="light">
+                <StyledButton variant="outline-light">
                     <a href={project.github} target="_blank" rel="noreferrer">Voir Plus</a>
                 </StyledButton>
                 <SkillsList>

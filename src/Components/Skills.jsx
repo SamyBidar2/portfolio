@@ -129,7 +129,7 @@ export const Skills = () => {
                     className="mb-3"
                     justify
                 >
-                    <Tab eventKey="Techskills" title="Technique">
+                    <Tab eventKey="Techskills" title="Technologies">
                         <SkillsListContainer>
                             <SkillsLi>
                                 <SkillsIcone icon={faJs} className='text-light' />
@@ -174,6 +174,10 @@ export const Skills = () => {
                             <SkillsLi>
                                 <img src={empathie} alt='Empathie' className='text-light' />
                                 <Styledspan>Empathie</Styledspan>
+                            </SkillsLi>
+                            <SkillsLi>
+                                <img src={empathie} alt='Entrepreneur' className='text-light' />
+                                <Styledspan>Entrepreneur</Styledspan>
                             </SkillsLi>
                         </SkillsListContainer>
                     </Tab>

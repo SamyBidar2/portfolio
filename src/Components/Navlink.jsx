@@ -19,9 +19,9 @@ export const Navlinks = () => {
 
   return (
     <>
-      <Navbar bg="transparent" variant="dark" expand="lg">
+      <Navbar style={{ backgroundColor: '#0d0e12' }} variant="dark" expand="lg" fixed='top'>
         <Container>
-          <Navbar.Brand href="#home">Samy Bidar</Navbar.Brand>
+          <Navbar.Brand href="/#home">Samy Bidar</Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -35,20 +35,12 @@ export const Navlinks = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              {/* <motion.div
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ delay: 2.4, duration: 0.5, type: 'spring' }}
-              >
-                <Nav.Link href="#home">Accueil</Nav.Link>
-              </motion.div> */}
-
               <motion.div
                 initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.3, duration: 0.5, type: 'spring' }}
               >
-                <Nav.Link className='text-light' href="#portfolio">Portfolio</Nav.Link>
+                <Nav.Link className='text-light' href="/#portfolio">Projets</Nav.Link>
               </motion.div>
 
               <motion.div
@@ -56,7 +48,7 @@ export const Navlinks = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.2, duration: 0.5, type: 'spring' }}
               >
-                <Nav.Link className='text-light' href="#about">À Propos</Nav.Link>
+                <Nav.Link className='text-light' href="/#about">Compétences et Expériences</Nav.Link>
               </motion.div>
 
               <motion.div
@@ -64,15 +56,7 @@ export const Navlinks = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.4, duration: 0.5, type: 'spring' }}
               >
-                <Nav.Link className='text-light' href="#contact" >Contact</Nav.Link>
-              </motion.div>
-
-              <motion.div
-                initial={{ x: -100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ delay: 2.4, duration: 0.5, type: 'spring' }}
-              >
-                <Nav.Link className='text-light' href="#" download="../../public/CV Samy Bidar - Integrateur Web.pdf">Curriculum Vitae</Nav.Link>
+                <Nav.Link className='text-light' href="/#contact" >Contact</Nav.Link>
               </motion.div>
             </Nav>
           </Navbar.Collapse>
