@@ -19,8 +19,8 @@ export const Navlinks = () => {
 
   return (
     <>
-      <Navbar style={{ backgroundColor: '#0d0e12' }} variant="dark" expand="lg" fixed='top'>
-        <Container>
+      <Navbar style={{ backgroundColor: '#0d0e12'}} variant="dark" expand="lg" fixed='top'>
+        <Container style={{ borderBottom: '1px solid white', paddingBottom:'10px'}}>
           <Navbar.Brand href="/#home">Samy Bidar</Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"

@@ -18,12 +18,12 @@ const TimelineContainer = styled(Container)`
     padding-bottom: 10%;    
   `;
 
-  const TimelineTitle = styled.h2`
+const TimelineTitle = styled.h2`
     padding: 40px 0;
     text-align: center;
   `;
 
-  const StyledVerticalTimelineElement = styled(VerticalTimelineElement)`
+const StyledVerticalTimelineElement = styled(VerticalTimelineElement)`
     .vertical-timeline-element-content {
       border-radius: 10px;
       border: 1px solid #2b303b;
@@ -38,11 +38,11 @@ const TimelineContainer = styled(Container)`
     }
 
     .vertical-timeline-element-title {
-      font-size:24px;
+      font-size: 24px;
     }
 
     .vertical-timeline-element-subtitle {
-      font-size:20px;
+      font-size: 20px;
     }
 
     .vertical-timeline-element-text {
@@ -56,9 +56,10 @@ const TimelineContainer = styled(Container)`
     }
 
     .vertical-timeline-element-date {
-      color: var(--Adaptive-Weak, rgba(255, 255, 255, 0.60));
+      color: white;
+      opacity: 1; 
       font-family: Inter;
-      font-size: 16px;
+      font-size: 19px !important;
       font-style: normal;
       font-weight: 400;
       line-height: 24px;
@@ -89,12 +90,10 @@ export const Timeline = () => {
             <p className='vertical-timeline-element-text text-light'>
               {formatDescription(data.description)}
             </p>
-            <span className='vertical-timeline-element-date text-light'>{data.date}</span>
+            <span className='vertical-timeline-element-date text-light' >{data.date}</span>
           </StyledVerticalTimelineElement>
         ))}
       </VerticalTimeline>
     </TimelineContainer>
   );
 };
-
-
