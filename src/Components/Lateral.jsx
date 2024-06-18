@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faAt, faMobileScreen} from '@fortawesome/free-solid-svg-icons';
+import { motion } from "framer-motion";
 
 //#region 
 const LateralContainer = styled(Container)`
@@ -12,11 +13,15 @@ const LateralContainer = styled(Container)`
     align-items: center;
     width: 40px;
     padding: 5px;
-    border: 1px solid white;
-    border-radius: 2px;
+    // border: 1px solid white;
+    // border-radius: 2px;
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 5%;
+    left: 3%;
+
+     @media (max-width: 768px) {
+        display: none;
+    }
     
 `;
 
@@ -27,7 +32,7 @@ const IconContainer = styled(Container)`
     align-items: center;
     gap: 10px;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
 `;
 
 

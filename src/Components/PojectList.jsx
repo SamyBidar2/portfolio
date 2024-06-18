@@ -10,7 +10,7 @@ import styled from 'styled-components';
 
 //#region 
 const ProjectListContainer = styled(Container)`
-  margin: 80px 0px;
+  padding: 80px 0px;
 `;
 
 const ProjectListTitle = styled.h2`

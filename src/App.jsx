@@ -7,7 +7,7 @@ import { Error } from './Pages/Error';
 import { AllProjects } from './Pages/Allprojects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-import { Lateral } from './Components/Lateral';
+// import { Lateral } from './Components/Lateral';
 
 
 

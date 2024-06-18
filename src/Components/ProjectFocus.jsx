@@ -16,7 +16,9 @@ const ProjectFocusContainer = styled(Container)`
     justify-content: center;
     width: 100%;
     overflow: hidden;
-    padding-bottom: 10%;    
+    padding-bottom: 10%;  
+    padding-left:40px;
+    padding-right:40px; 
 `;
 
 const ProjectTitle = styled.h2`
