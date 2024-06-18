@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "//github.com/SamyBidar2/samybidar/static/css/main.9896edd2.css",
+    "main.js": "//github.com/SamyBidar2/samybidar/static/js/main.b745ce3f.js",
+    "static/js/453.5dace9ed.chunk.js": "//github.com/SamyBidar2/samybidar/static/js/453.5dace9ed.chunk.js",
+    "static/media/clash.webp": "//github.com/SamyBidar2/samybidar/static/media/clash.4fae3d21d358f81444a1.webp",
+    "static/media/mail.png": "//github.com/SamyBidar2/samybidar/static/media/mail.ea71c6286740ba84f2a9.png",
+    "static/media/allprojects.jpg": "//github.com/SamyBidar2/samybidar/static/media/allprojects.7660f32bf7c169dd31eb.jpg",
+    "index.html": "//github.com/SamyBidar2/samybidar/index.html",
+    "static/media/close.svg": "//github.com/SamyBidar2/samybidar/static/media/close.a591c5268e7cbcfeb569c6afea5745fc.svg",
+    "static/media/open.svg": "//github.com/SamyBidar2/samybidar/static/media/open.e6bd41ec79183186fdb132e92b58c1de.svg",
+    "main.9896edd2.css.map": "//github.com/SamyBidar2/samybidar/static/css/main.9896edd2.css.map",
+    "main.b745ce3f.js.map": "//github.com/SamyBidar2/samybidar/static/js/main.b745ce3f.js.map",
+    "453.5dace9ed.chunk.js.map": "//github.com/SamyBidar2/samybidar/static/js/453.5dace9ed.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9896edd2.css",
+    "static/js/main.b745ce3f.js"
+  ]
+}
