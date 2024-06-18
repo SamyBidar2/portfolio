@@ -66,7 +66,7 @@
       },
       {
         "id": "4",
-        "title": "Les gourmands nés épisode 1",
+        "title": "Les gourmands nés épisode 1 - Auberge La Moreno",
         "shortdescrition":"Enregistrement des voix off avec Fanny Agostini",
         "description": [
           "L'Auberge de La Moreno est un lieu incontournable pour les amateurs des bons produits auvergnats. ",
@@ -85,7 +85,7 @@
       },
       {
         "id": "4",
-        "title": "Les gourmands nés épisode 2",
+        "title": "Les gourmands nés épisode 2 - Serge Vieira",
         "shortdescrition":"Régie Technique. Prise de son, Edition sonore, Mixage.",
         "description": [
           "Pour ce deuxième épisode, Serge Vieira, bocuse d'or 2005, reçoit les Gourmands Nés dans son château situé à Chaudes-Aigues dans le Cantal. ",
@@ -104,7 +104,7 @@
       },
       {
         "id": "5",
-        "title": "Les gourmands nés épisode 3",
+        "title": "Les gourmands nés épisode 3 - Régis Marcon",
         "shortdescrition":"Régie Technique, installation et configuration d'une régie mobile.  Prise de son, Edition et Conception sonore, Mixage.",
         "description": [
           "Le temps d'un repas Fanny Agostini, Régis Marcon et Jacques Marcon et Charles Moncouyoux accompagnés de leurs hôtes reviennent avec passion sur leur métier, et les valeurs qu'ils défendent.",
@@ -124,10 +124,10 @@
       },
       {
         "id": "6",
-        "title": "Upperground Production - Services de promotion digitale pour les musiciens",
-        "shortdescrition":"Création de différents services digitaux proposés par l'entreprise upperground Production, à destination des artistes et labels indépendants",
+        "title": "Services de promotion digitale pour les musiciens",
+        "shortdescrition":"Création de différents services digitaux proposés par l'entreprise Upperground Production, à destination des artistes et labels indépendants",
         "description": [
-          "En plus de la production d'artsite, Upperground Production propose des services digitaux aux artistes et aux labels",
+          "En plus de la production d'artistes, Upperground Production propose des services digitaux aux artistes et aux labels",
           "J'ai été ammené par exemple à créer des pages de ventes, créer des pages liens Instagram personnalisés (sorte de linktree), ou un site sur wordpress, intégrant une boutique Woocommerce pour la vente de Cd et de Merchandising",
           "J'ai aussi été amené à mettre en place et à automatiser des campagnes de mailling, des campagnes publicitaires via Google Ads et Facebook Ads, dans le but de promouvoir les dernières sorties de mes clients et d'augmenter leur vues et leur visibilité, et à retravailler le référencement de leurs chaines Youtube"          
         ],
@@ -139,6 +139,28 @@
         ],
         "technologies": ["Wordpress", "Systeme.io", "WooCommerce", "CSS", "Google Ads", "Facebook Ads", "mailchimp", "SEO"],
         "tag": "Digital",
+        "github": "https://www.ug-digital.com/",
+        "deployed": "",        
+        "focus" : "none"
+      },
+      {
+        "id": "7",
+        "title": "Enregistrement Session Acoustique - Marina Kaye",
+        "shortdescrition":"Enregistrement d'une session acoustique avec la chanteuse Marina Kaye au studio de la Frette",
+        "description": [
+          "Enregistrement d'une session acoustique avec la chanteuse Marina Kaye au studio de la Frette",
+          "Au cours de cette session, mon rôle a été d'accueillir les artistes, de mettre en place et configurer le matériel de manière à obtenir le meilleur résultat sonore, tout en prenant en compte les contraintes visuelles de l'équipe responsable de la réalisation Vidéo.",
+          "Mixage réalisé par Jonathan"          
+        ],
+        "cover": "/Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
+        "ModalImages" :[
+          "/Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
+          "/Images/Projects/Sound/Marina Kaye/MK freeze2.webp",
+          "/Images/Projects/Sound/Marina Kaye/MK freeze3.webp",
+          "/Images/Projects/Sound/Marina Kaye/MK freeze4.webp"
+        ],
+        "technologies": ["Wordpress", "Systeme.io", "WooCommerce", "CSS", "Google Ads", "Facebook Ads", "mailchimp", "SEO"],
+        "tag": "Sound",
         "github": "https://www.ug-digital.com/",
         "deployed": "",        
         "focus" : "none"
