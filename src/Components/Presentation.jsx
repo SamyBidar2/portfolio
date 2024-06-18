@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-// import SocialIcons from "./SocialIcons";
+import {Lateral} from "./Lateral";
 
 //#region 
 const AboutContainer = styled(Container)`
@@ -62,6 +62,9 @@ return (
                     }}
                 />
             </TypewriterContainer>
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay:1.7, duration: 1, ease: "easeInOut" }}>
+                <Lateral/>
+            </motion.div>
         </AboutContainer>
     );
 };

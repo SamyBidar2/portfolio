@@ -169,7 +169,7 @@ export const ProjectFocus = () => {
                         <StyledCardBody>
                             <CardImg src={allprojectimage} />
                             <CardContainer>
-                                <CardTitle>Un aperçu de tous mes Projets</CardTitle>
+                                <CardTitle className='text-light'>Un aperçu de tous mes Projets</CardTitle>
                                 <CardText className='text-light'>Retrouvez ici l'intégralité des projets sur lesquels j'ai travaillé</CardText>
                                 <CardButton variant="outline-light" size="sm" onClick={() => navigate('/allprojects')} >Voir plus</CardButton>
                             </CardContainer>

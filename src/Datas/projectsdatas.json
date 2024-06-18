@@ -121,5 +121,26 @@
         "github": "https://www.youtube.com/watch?v=gDEBZvi4C5s&t=302s",
         "deployed": "",        
         "focus" : "none"
+      },
+      {
+        "id": "6",
+        "title": "Upperground Production - Services de promotion digitale pour les musiciens",
+        "shortdescrition":"Création de différents services digitaux proposés par l'entreprise upperground Production, à destination des artistes et labels indépendants",
+        "description": [
+          "En plus de la production d'artsite, Upperground Production propose des services digitaux aux artistes et aux labels",
+          "J'ai été ammené par exemple à créer des pages de ventes, créer des pages liens Instagram personnalisés (sorte de linktree), ou un site sur wordpress, intégrant une boutique Woocommerce pour la vente de Cd et de Merchandising",
+          "J'ai aussi été amené à mettre en place et à automatiser des campagnes de mailling, des campagnes publicitaires via Google Ads et Facebook Ads, dans le but de promouvoir les dernières sorties de mes clients et d'augmenter leur vues et leur visibilité, et à retravailler le référencement de leurs chaines Youtube"          
+        ],
+        "cover": "/Images/Projects/Upperground/UGdigital.webp",
+        "ModalImages" :[
+          "/Images/Projects/Upperground/UGdigital.webp",
+          "/Images/Projects/Upperground/Josslinks.webp",
+          "/Images/Projects/Upperground/HarnnelLinks.webp"
+        ],
+        "technologies": ["Wordpress", "Systeme.io", "WooCommerce", "CSS", "Google Ads", "Facebook Ads", "mailchimp", "SEO"],
+        "tag": "Digital",
+        "github": "https://www.ug-digital.com/",
+        "deployed": "",        
+        "focus" : "none"
       }
 ]
