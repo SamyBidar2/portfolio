@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import { HashLink as Link } from 'react-router-hash-link';
 import openMenu from '../Images/open.svg';
 import closeMenu from '../Images/close.svg';
 
@@ -21,7 +22,7 @@ export const Navlinks = () => {
     <>
       <Navbar style={{ backgroundColor: '#0d0e12'}} variant="dark" expand="lg" fixed='top'>
         <Container style={{ borderBottom: '1px solid white', paddingBottom:'10px'}}>
-          <Navbar.Brand href="/#home">Samy Bidar</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/#home">Samy Bidar</Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -40,7 +41,7 @@ export const Navlinks = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.3, duration: 0.5, type: 'spring' }}
               >
-                <Nav.Link className='text-light' href="/#portfolio">Projets</Nav.Link>
+                <Nav.Link as={Link} className='text-light' to="/#portfolio">Projets</Nav.Link>
               </motion.div>
 
               <motion.div
@@ -48,7 +49,7 @@ export const Navlinks = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.2, duration: 0.5, type: 'spring' }}
               >
-                <Nav.Link className='text-light' href="/#about">Compétences et Expériences</Nav.Link>
+                <Nav.Link as={Link} className='text-light' to="/#about">Compétences et Expériences</Nav.Link>
               </motion.div>
 
               <motion.div
@@ -56,7 +57,7 @@ export const Navlinks = () => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: 2.4, duration: 0.5, type: 'spring' }}
               >
-                <Nav.Link className='text-light' href="/#contact" >Contact</Nav.Link>
+                <Nav.Link as={Link} className='text-light' to="/#contact">Contact</Nav.Link>
               </motion.div>
             </Nav>
           </Navbar.Collapse>
@@ -65,4 +66,3 @@ export const Navlinks = () => {
     </>
   );
 };
-

@@ -124,7 +124,7 @@
       },
       {
         "id": "6",
-        "title": "Services de promotion digitale pour les musiciens",
+        "title": "Web Marketing & Promotion (Google, Facebook Ads)",
         "shortdescrition":"Création de différents services digitaux proposés par l'entreprise Upperground Production, à destination des artistes et labels indépendants",
         "description": [
           "En plus de la production d'artistes, Upperground Production propose des services digitaux aux artistes et aux labels",
@@ -137,7 +137,7 @@
           "/Images/Projects/Upperground/Josslinks.webp",
           "/Images/Projects/Upperground/HarnnelLinks.webp"
         ],
-        "technologies": ["Wordpress", "Systeme.io", "WooCommerce", "CSS", "Google Ads", "Facebook Ads", "mailchimp", "SEO"],
+        "technologies": ["Wordpress", "Systeme.io", "Woo Commerce", "CSS", "Google Ads", "Facebook Ads", "mailchimp", "SEO"],
         "tag": "Digital",
         "github": "https://www.ug-digital.com/",
         "deployed": "",        

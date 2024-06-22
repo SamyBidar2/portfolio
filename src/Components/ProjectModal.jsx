@@ -5,6 +5,7 @@ import { Button, Carousel, Modal } from 'react-bootstrap';
 //#region 
 const SkillsList = styled.ul`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10px;

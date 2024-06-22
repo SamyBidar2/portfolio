@@ -7,21 +7,19 @@ import { Error } from './Pages/Error';
 import { AllProjects } from './Pages/Allprojects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
-// import { Lateral } from './Components/Lateral';
+
 
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <Navlinks/>
-      {/* <Navlinks2/> */}
       <Routes>
         <Route path ='/' element={<Home />} />
         <Route path ='/Allprojects' element={<AllProjects />} />
         <Route path ="*" element={<Error />} />
       </Routes>
-      {/* <Lateral/> */}
       <Footer />
     </BrowserRouter>
   );
