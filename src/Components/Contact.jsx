@@ -30,21 +30,18 @@ const ContactContainer = styled(Container)`
 
   const Card = styled(BootstrapCard)`
     // width: 760px;
-    //height: 500px;
+    // height: 500px;
     padding: 30px;
     box-sizing: border-box;
     gap: 15px; 
     border-radius: 10px;
     border: 1px solid #2b303b;
-    // background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.02) 100%);
     background: #15181e;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.12), 0px 8px 16px 0px rgba(0, 0, 0, 0.60);
     backdrop-filter: blur(12px);
 
     &:hover {
-        // background: #22272e; /* Change background color on hover */
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 2px 4px 0px rgba(0, 0, 0, 0.16), 0px 2px 4px 0px rgba(0, 0, 0, 0.32); 
-        // filter: drop-shadow(0 0 1px #8A2BE2); 
         filter: drop-shadow(0 0 1px #22272e); 
     }
 `;
@@ -133,8 +130,6 @@ export const Contact = () => {
           <CardBody>
               <CardTitle>Envie de discuter de votre projet autour d'un café ou d'une visioconférence? </CardTitle>
               <TextContainer>
-                  
-                  {/* <CardTitle>Contactez-moi par email ou par téléphone et prenons rendez-vous !</CardTitle> */}
                   <InfoContainer>
                     <StyleIconContainer>
                       <StyledIcone icon={faAt}/>

@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { Card as BootstrapCard } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -96,27 +95,3 @@ export const ProjectCard = ({ project, onCardClick }) => {
         </Card>
     );
 };
-
-
-// import { Card } from 'react-bootstrap'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faCircleNodes } from '@fortawesome/free-solid-svg-icons'
-
-// // import './index.scss';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import styles from './ProjectCard.module.scss';
-
-// export const ProjectCard= ({project}) => {
-//     return (
-//             <Card className={styles.cardCustomContainer}>
-//                 <Card.Img src={project.cover} className={styles.cardImg}/>
-//                 <Card.Body className={styles.cardBody}>
-//                 <FontAwesomeIcon icon={faCircleNodes} className={styles.projectIcon}/>
-//                     <div className={styles.textContainer}>
-//                         <Card.Title className={styles.cardTitle}>{project.title}</Card.Title>
-//                         <Card.Text className={styles.cardText}>{project.description}</Card.Text>
-//                     </div>
-//                 </Card.Body>
-//             </Card>
-//     )
-// }

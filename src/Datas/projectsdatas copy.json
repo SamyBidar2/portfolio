@@ -87,27 +87,6 @@
       },
       {
         "id": "5",
-        "title": "Web Marketing & Promotion (Google, Facebook Ads)",
-        "shortdescrition":"Création de différents services digitaux proposés par l'entreprise Upperground Production, à destination des artistes et labels indépendants",
-        "description": [
-          "En plus de la production d'artistes, Upperground Production propose des services digitaux aux artistes et aux labels",
-          "J'ai été ammené par exemple à créer des pages de ventes, créer des pages liens Instagram personnalisés (sorte de linktree), ou un site sur wordpress, intégrant une boutique Woocommerce pour la vente de Cd et de Merchandising",
-          "J'ai aussi été amené à mettre en place et à automatiser des campagnes de mailling, des campagnes publicitaires via Google Ads et Facebook Ads, dans le but de promouvoir les dernières sorties de mes clients et d'augmenter leur vues et leur visibilité, et à retravailler le référencement de leurs chaines Youtube"          
-        ],
-        "cover": "./Images/Projects/Upperground/UGdigital.webp",
-        "ModalImages" :[
-          "./Images/Projects/Upperground/UGdigital.webp",
-          "./Images/Projects/Upperground/Josslinks.webp",
-          "./Images/Projects/Upperground/HarnnelLinks.webp"
-        ],
-        "technologies": ["Wordpress", "Systeme.io", "Woo Commerce", "CSS", "Google Ads", "Facebook Ads", "mailchimp", "SEO"],
-        "tag": "Digital",
-        "github": "https://www.ug-digital.com/",
-        "deployed": "",        
-        "focus" : "none"
-      },
-      {
-        "id": "6",
         "title": "Ingénieur du son freelance ",
         "shortdescrition":"Quelques exemples de projets sur lesquels j'ai travaillé en tant qu'ingénieur du son (Olivier Bollig, Marina Kaye, Mashrou Leila, Mathieu Saikaly, Joss Bari, Hobbs, Gwad, ... ",
         "description": [
@@ -118,16 +97,32 @@
         ],
         "cover": "./Images/Projects/Sound/Gourmands/Gorumands-1-cover.webp",
        "ModalImages" :[
-          "./Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
-          "./Images/Projects/Sound/Marina Kaye/MK freeze3.webp",
           "./Images/Projects/Sound/Gourmands/Gourmands-1-patisserie.webp",
           "./Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
-          "./Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
-          "./Images/Projects/Sound/Gourmands/gourmands-3-Fanny-Agostini.webp"
+          "./Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp"
         ],
-        "technologies": ["Prise de son", "Edition", "Sound design", "Mixage", "Câblage", "Régie technique" ],
+        "technologies": ["Prise de son", "Voix off"],
         "tag": "Sound",
         "github": "https://www.youtube.com/watch?v=D4nXwy4squQ",
+        "deployed": "",        
+        "focus" : "none"
+      },
+      {
+        "id": "6",
+        "title": "Les gourmands nés épisode 2 - Serge Vieira",
+        "shortdescrition":"Régie Technique. Prise de son, Edition sonore, Mixage.",
+        "description": [
+          "Pour ce deuxième épisode, Serge Vieira, bocuse d'or 2005, reçoit les Gourmands Nés dans son château situé à Chaudes-Aigues dans le Cantal. ",
+          "Fanny Agostini nous raconte leur histoire."
+        ],
+        "cover": "./Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
+       "ModalImages" :[
+          "./Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
+          "./Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp"
+        ],
+        "technologies": ["Prise de son", "Edition", "Mixage", "Câblage", "Régie technique" ],
+        "tag": "Sound",
+        "github": "https://www.youtube.com/watch?v=GkX2b7GBVUA&t=1175s",
         "deployed": "",        
         "focus" : "none"
       },
@@ -153,6 +148,27 @@
       },
       {
         "id": "8",
+        "title": "Web Marketing & Promotion (Google, Facebook Ads)",
+        "shortdescrition":"Création de différents services digitaux proposés par l'entreprise Upperground Production, à destination des artistes et labels indépendants",
+        "description": [
+          "En plus de la production d'artistes, Upperground Production propose des services digitaux aux artistes et aux labels",
+          "J'ai été ammené par exemple à créer des pages de ventes, créer des pages liens Instagram personnalisés (sorte de linktree), ou un site sur wordpress, intégrant une boutique Woocommerce pour la vente de Cd et de Merchandising",
+          "J'ai aussi été amené à mettre en place et à automatiser des campagnes de mailling, des campagnes publicitaires via Google Ads et Facebook Ads, dans le but de promouvoir les dernières sorties de mes clients et d'augmenter leur vues et leur visibilité, et à retravailler le référencement de leurs chaines Youtube"          
+        ],
+        "cover": "./Images/Projects/Upperground/UGdigital.webp",
+        "ModalImages" :[
+          "./Images/Projects/Upperground/UGdigital.webp",
+          "./Images/Projects/Upperground/Josslinks.webp",
+          "./Images/Projects/Upperground/HarnnelLinks.webp"
+        ],
+        "technologies": ["Wordpress", "Systeme.io", "Woo Commerce", "CSS", "Google Ads", "Facebook Ads", "mailchimp", "SEO"],
+        "tag": "Digital",
+        "github": "https://www.ug-digital.com/",
+        "deployed": "",        
+        "focus" : "none"
+      },
+      {
+        "id": "9",
         "title": "Enregistrement Session Acoustique - Marina Kaye",
         "shortdescrition":"Enregistrement d'une session acoustique avec la chanteuse Marina Kaye au studio de la Frette",
         "description": [
