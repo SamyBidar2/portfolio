@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Button, Carousel, Modal } from 'react-bootstrap';
 
-//#region 
 const SkillsList = styled.ul`
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +39,6 @@ const StyledCarousel = styled(Carousel)`
 `;
 
 const Description = styled.p`
-    // padding: 5px;
     color: white;
 `;
 
@@ -73,10 +71,11 @@ const StyledButton = styled(Button)`
     padding: 10px;
     background-color: white;
     font-size:14px;
-`
-//#endregion
+`;
 
 export const ProjectModal = ({ show, onHide, project }) => {
+    const baseURL = process.env.PUBLIC_URL;
+
     return (
         <Modal
             show={show}
@@ -95,7 +94,7 @@ export const ProjectModal = ({ show, onHide, project }) => {
                 <StyledCarousel data-bs-theme="dark">
                     {project.ModalImages.map((modalImage, index) => (
                         <Carousel.Item key={`${project.id}-${index}`}>
-                            <CarousselImg src={modalImage} alt='illustration du projet' />
+                            <CarousselImg src={`${baseURL}${modalImage}`} alt='illustration du projet' />
                         </Carousel.Item>
                     ))}
                 </StyledCarousel>

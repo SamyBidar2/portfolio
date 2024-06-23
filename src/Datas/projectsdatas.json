@@ -7,12 +7,12 @@
           "J'ai également créé une page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias. Ces éléments ont été développés from scratch, afin de mettre en pratique mes compétences en JavaScript de manière approfondie. Dans ce projet j'ai eu accès à un code back-end pour tester les fonctionnalités.", 
           "J'ai appris à communiquer avec une API, ce qui est crucial pour les applications web modernes. En terme d'outils, j'ai utilisé Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
         ],
-        "cover": "./Images/Projects/SophieBluel/SB-accueil.webp",
+        "cover": "/assets/Images/Projects/SophieBluel/SB-accueil.webp",
         "ModalImages" :[
-          "./Images/Projects/SophieBluel/SB-accueil.webp",
-          "./Images/Projects/SophieBluel/SB-Galerie.webp",
-          "./Images/Projects/SophieBluel/SB-Modal.webp",
-          "./Images/Projects/SophieBluel/SB-ajoutImage.webp"
+          "/assets/Images/Projects/SophieBluel/SB-accueil.webp",
+          "/assets/Images/Projects/SophieBluel/SB-Galerie.webp",
+          "/assets/Images/Projects/SophieBluel/SB-Modal.webp",
+          "/assets/Images/Projects/SophieBluel/SB-ajoutImage.webp"
         ],
         "technologies": ["JavaScript", "API", "HTML", "CSS", "Sass"],
         "tag": "Formation",
@@ -29,11 +29,11 @@
           "J'ai également utilisé React Router pour configurer la navigation entre les différentes pages de l'application. Ce qui m'a permis de comprendre comment gérer efficacement le routage dans une application web moderne. Dans le contexte de ce projet il m'était demandé de me concentrer exclusivement sur le développement front-end, en me basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.",
           "En terme d'outils, j'ai utilisé Create React APP pour faciliter la configuration initiale de React, Figma pour accéder aux maquettes, Visual Studio Code pour le développement, et GitHub pour la gestion de version du projet."
         ],
-        "cover": "./Images/Projects/Kasa/Kasa-Logement.webp",
+        "cover": "/assets/Images/Projects/Kasa/Kasa-Logement.webp",
         "ModalImages" :[
-          "./Images/Projects/Kasa/Kasa-Logement.webp",
-          "./Images/Projects/Kasa/Kasa-Apropos.webp",
-          "./Images/Projects/Kasa/Kasa-home.webp"
+          "/assets/Images/Projects/Kasa/Kasa-Logement.webp",
+          "/assets/Images/Projects/Kasa/Kasa-Apropos.webp",
+          "/assets/Images/Projects/Kasa/Kasa-home.webp"
         ],
         "technologies": ["React", "React Router", "HTML", "CSS", "Sass"],
         "tag": "Formation",
@@ -52,11 +52,9 @@
           "Enfin j'ai rédigé un rapport résumant toutes les modifications apportées, et montrant les résultats obtenus après optimisation du site",
           "En terme d'outils, j'ai uilisé Lighthouse pour analyser les performances et Wave pour l'accessibilité."
         ],
-        "cover": "./Images/Projects/SEO/Nina.webp",
+        "cover": "/assets/Images/Projects/SEO/Nina.webp",
        "ModalImages" :[
-          "./Images/Projects/SEO/Nina.webp",
-          "./Images/Projects/Kasa/Kasa-Apropos.webp",
-          "./Images/Projects/Kasa/Kasa-home.webp"
+          "/assets/Images/Projects/SEO/Nina.webp"
         ],
         "technologies": ["HTML", "CSS", "SEO", "Lighthouse", "Opengraph","Rich Snippets"],
         "tag": "Formation",
@@ -73,11 +71,11 @@
           "Mon travail consistait à étudier les specifications fonctionnelles détaillées de services, afin d'établir des matrices de tests (si celles ci n'étaient pas fournies par les MOA). Une fois les matrices établies, je concevais mes différents cas de tests afin de valider la conformité du produit",
           "Les différentes tâches pour la réalisation des tests, pouvaient aller de la création et la maintenance d'un jeu de données, à la création des requêtes pour les téléservices. J'ai aussi été ammené à travailler sur de l'automatisation de tests, notamment en utilisant le logiciel Ranorex."
         ],
-        "cover": ".Images/Projects/CPAM/Ranorex.webp",
+        "cover": "/assets/Images/Projects/CPAM/Ranorex.webp",
        "ModalImages" :[
-          "./Images/Projects/CPAM/Ranorex.webp",
-          "./Images/Projects/CPAM/Sefi.webp",
-          "./Images/Projects/CPAM/DMP.webp"
+          "/assets/Images/Projects/CPAM/Ranorex.webp",
+          "/assets/Images/Projects/CPAM/Sefi.webp",
+          "/assets/Images/Projects/CPAM/DMP.webp"
         ],
         "technologies": ["Tests", "Spécification fonctionnelles", "Automatisation", "Ranorex", "Postman", "REST"],
         "tag": "Test",
@@ -94,11 +92,11 @@
           "J'ai été ammené par exemple à créer des pages de ventes, créer des pages liens Instagram personnalisés (sorte de linktree), ou un site sur wordpress, intégrant une boutique Woocommerce pour la vente de Cd et de Merchandising",
           "J'ai aussi été amené à mettre en place et à automatiser des campagnes de mailling, des campagnes publicitaires via Google Ads et Facebook Ads, dans le but de promouvoir les dernières sorties de mes clients et d'augmenter leur vues et leur visibilité, et à retravailler le référencement de leurs chaines Youtube"          
         ],
-        "cover": "./Images/Projects/Upperground/UGdigital.webp",
+        "cover": "/assets/Images/Projects/Upperground/UGdigital.webp",
         "ModalImages" :[
-          "./Images/Projects/Upperground/UGdigital.webp",
-          "./Images/Projects/Upperground/Josslinks.webp",
-          "./Images/Projects/Upperground/HarnnelLinks.webp"
+          "/assets/Images/Projects/Upperground/UGdigital.webp",
+          "/assets/Images/Projects/Upperground/Josslinks.webp",
+          "/assets/Images/Projects/Upperground/HarnnelLinks.webp"
         ],
         "technologies": ["Wordpress", "Systeme.io", "Woo Commerce", "CSS", "Google Ads", "Facebook Ads", "mailchimp", "SEO"],
         "tag": "Digital",
@@ -116,14 +114,19 @@
           "Ces années m'ont donné l'opportunité de travailler le son sous de nombreux aspects, allant de l'enregistrement au mixage, en passant par le câblage et l'électronique",
           "Vous pourrez trouver dans les images, une séléction de moments capturés au cours de différents projets sur les lieux de tournages, de concerts ou en studio."
         ],
-        "cover": "./Images/Projects/Sound/Gourmands/Gorumands-1-cover.webp",
+        "cover": "/assets/Images/Projects/Sound/UGregie.webp",
        "ModalImages" :[
-          "./Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
-          "./Images/Projects/Sound/Marina Kaye/MK freeze3.webp",
-          "./Images/Projects/Sound/Gourmands/Gourmands-1-patisserie.webp",
-          "./Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
-          "./Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
-          "./Images/Projects/Sound/Gourmands/gourmands-3-Fanny-Agostini.webp"
+          "/assets/Images/Projects/Sound/UGregie.webp",
+          "/assets/Images/Projects/Sound/SessionPalissy.webp",
+          "/assets/Images/Projects/Sound/ShowjossBari.webp",
+          "/assets/Images/Projects/Sound/UGneve.webp",
+          "/assets/Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
+          "/assets/Images/Projects/Sound/Marina Kaye/MK freeze3.webp",
+          "/assets/Images/Projects/Sound/Gourmands/Gourmands-1-patisserie.webp",
+          "/assets/Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
+          "/assets/Images/Projects/Sound/Gourmands/Gourmands-2-cover.webp",
+          "/assets/Images/Projects/Sound/Gourmands/gourmands-3-Fanny-Agostini.webp",
+          "/assets/Images/Projects/Sound/Regiebus26.webp"
         ],
         "technologies": ["Prise de son", "Edition", "Sound design", "Mixage", "Câblage", "Régie technique" ],
         "tag": "Sound",
@@ -139,11 +142,11 @@
           "Le temps d'un repas Fanny Agostini, Régis Marcon et Jacques Marcon et Charles Moncouyoux accompagnés de leurs hôtes reviennent avec passion sur leur métier, et les valeurs qu'ils défendent.",
           "Nature et transmission sont les thèmes abordés dans ce troisième épisode."
         ],
-        "cover": "./Images/Projects/Sound/Gourmands/Gourmands-3-cover.webp",
+        "cover": "/assets/Images/Projects/Sound/Gourmands/Gourmands-3-cover.webp",
        "ModalImages" :[
-          "./Images/Projects/Sound/Gourmands/Gourmands-3-cover.webp",
-          "./Images/Projects/Sound/Gourmands/Gourmands-3-dégustation.webp",
-          "./Images/Projects/Sound/Gourmands/gourmands-3-Fanny-Agostini.webp"
+          "/assets/Images/Projects/Sound/Gourmands/Gourmands-3-cover.webp",
+          "/assets/Images/Projects/Sound/Gourmands/Gourmands-3-dégustation.webp",
+          "/assets/Images/Projects/Sound/Gourmands/gourmands-3-Fanny-Agostini.webp"
         ],
         "technologies": ["Prise de son", "Edition", "Sound design", "Mixage", "Câblage", "Régie technique" ],
         "tag": "Sound",
@@ -160,12 +163,12 @@
           "Au cours de cette session, mon rôle a été d'accueillir les artistes, de mettre en place et configurer le matériel de manière à obtenir le meilleur résultat sonore, tout en prenant en compte les contraintes visuelles de l'équipe responsable de la réalisation Vidéo.",
           "Mixage réalisé par Jonathan"          
         ],
-        "cover": "./Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
+        "cover": "/assets/Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
         "ModalImages" :[
-          "./Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
-          "./Images/Projects/Sound/Marina Kaye/MK freeze2.webp",
-          "./Images/Projects/Sound/Marina Kaye/MK freeze3.webp",
-          "./Images/Projects/Sound/Marina Kaye/MK freeze4.webp"
+          "/assets/Images/Projects/Sound/Marina Kaye/MK freeze1.webp",
+          "/assets/Images/Projects/Sound/Marina Kaye/MK freeze2.webp",
+          "/assets/Images/Projects/Sound/Marina Kaye/MK freeze3.webp",
+          "/assets/Images/Projects/Sound/Marina Kaye/MK freeze4.webp"
         ],
         "technologies": ["Prise de son"],
         "tag": "Sound",

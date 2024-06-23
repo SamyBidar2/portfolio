@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faAt, faMobileScreen} from '@fortawesome/free-solid-svg-icons';
-// import { motion } from "framer-motion";
+import { faAt} from '@fortawesome/free-solid-svg-icons';
+
 
 //#region 
 const LateralContainer = styled(Container)`
@@ -50,7 +50,7 @@ export const Lateral = () => {
                 {/* <a href='https://github.com/SamyBidar2' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMobileScreen} className='text-light' /></a> */}
                 <a href='https://github.com/SamyBidar2' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className='text-light' /></a>
                 <a href='https://www.linkedin.com/in/samybidar/' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className='text-light' /></a>
-                <a href='https://github.com/SamyBidar2' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className='text-light' /></a>
+                <a href='https://www.instagram.com/samybidar/' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} className='text-light' /></a>
             </IconContainer>
             <Deco/>
         </LateralContainer>

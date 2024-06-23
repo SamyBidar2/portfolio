@@ -49,7 +49,7 @@ const StyledCardBody = styled(ApCard.Body)`
     justify-content: flex-start;
     padding: 0px;
     margin: 0px;
-    @media (max-width: 992px) {
+    @media (max-width: 1200px) {
         flex-direction: column;
     }
 `;
@@ -68,8 +68,11 @@ const CardContainer = styled(Container)`
     justify-content: flex-start;
     padding: 50px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1200px) {
         padding: 20px;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
     }
     @media (min-width: 769px) and (max-width: 992px) {
         padding: 50px 20px; 
@@ -88,6 +91,8 @@ const CardTitle = styled(ApCard.Title)`
 
     @media (max-width: 768px) {
         font-size: 28px;
+    }
+        @media (max-width: 1200px) {
         margin-bottom: 20px;
     }
 `;

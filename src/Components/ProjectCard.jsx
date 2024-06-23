@@ -81,17 +81,38 @@ const CardText = styled(BootstrapCard.Text)`
 `;
 //#endregion
 
+// export const ProjectCard = ({ project, onCardClick }) => {
+ 
+
+//     return (
+//         <Card onClick={() => onCardClick(project)}>
+//             {/* <CardImg src={project.cover} /> */}
+//             <Card.Img src={project.cover} alt={project.title} />
+//             <CardBody>
+//                 <ProjectIcone icon={faCircleNodes} />
+//                 <TextContainer>
+//                     <CardTitle>{project.title}</CardTitle>
+//                     <CardText>{project.shortdescrition}</CardText>
+//                 </TextContainer>
+//             </CardBody>
+//         </Card>
+//     );
+// };
+
+
 export const ProjectCard = ({ project, onCardClick }) => {
+    const baseURL = process.env.PUBLIC_URL;
+  
     return (
-        <Card onClick={() => onCardClick(project)}>
-            <CardImg src={project.cover} />
-            <CardBody>
-                <ProjectIcone icon={faCircleNodes} />
-                <TextContainer>
-                    <CardTitle>{project.title}</CardTitle>
-                    <CardText>{project.shortdescrition}</CardText>
-                </TextContainer>
-            </CardBody>
-        </Card>
+      <Card onClick={() => onCardClick(project)}>
+        <CardImg src={`${baseURL}${project.cover}`} alt={project.title} />
+        <CardBody>
+          <ProjectIcone icon={faCircleNodes} />
+          <TextContainer>
+            <CardTitle>{project.title}</CardTitle>
+            <CardText>{project.shortdescrition}</CardText>
+          </TextContainer>
+        </CardBody>
+      </Card>
     );
-};
+  };
