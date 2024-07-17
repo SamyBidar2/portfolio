@@ -46,7 +46,7 @@ export const Lateral = () => {
         <LateralContainer className="footer-container">
             <Deco/>
             <IconContainer>
-                <a href='https://github.com/SamyBidar2' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faAt} className='text-light' /></a>
+                <a href='mailto:samybidarpro@gmail.com' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faAt} className='text-light' /></a>
                 {/* <a href='https://github.com/SamyBidar2' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faMobileScreen} className='text-light' /></a> */}
                 <a href='https://github.com/SamyBidar2' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className='text-light' /></a>
                 <a href='https://www.linkedin.com/in/samybidar/' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className='text-light' /></a>
